@@ -1,0 +1,38 @@
+**Personalized TED Talks Recommendation System Machine Learning**
+
+#Project Objective
+
+To recommend TED Talks based on their content using machine learning and natural language processing.
+
+#Tools Used
+
+- Python
+- VS Code
+- Jupyter Notebook
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- Scikit-learn
+
+#Dataset
+
+Source: Kaggle
+Original files are stored in "data/raw/".
+
+Project Structure
+
+- "data/raw/": Original dataset
+- "data/processed/": Cleaned dataset
+- "notebooks/": Analysis notebooks
+- "requirements.txt": Python dependencies
+
+Task 1 Status
+
+- Environment setup
+- Package installation
+- Dataset collection
+- Initial dataset inspection
+- Inspection report preparation
+
+Next Task
+
+Exploratory Data Analysis (EDA), visualizations and data-quality assessment.
