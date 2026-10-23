@@ -1,8 +1,0 @@
-column,outliers_found,replacement_method,cleaned_column
-comments,200,cap,comments_clean
-duration,28,cap,duration_clean
-film_date,44,cap,film_date_clean
-languages,164,cap,languages_clean
-num_speaker,58,cap,num_speaker_clean
-published_date,0,cap,published_date_clean
-views,246,cap,views_clean
