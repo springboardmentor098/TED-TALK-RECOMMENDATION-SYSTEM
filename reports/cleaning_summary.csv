@@ -1,0 +1,7 @@
+measure,value
+rows_before_cleaning,2550
+columns_before_cleaning,18
+exact_duplicate_rows_found,0
+rows_after_exact_duplicate_removal,2550
+rows_in_saved_dataset,2550
+columns_in_saved_dataset,30
