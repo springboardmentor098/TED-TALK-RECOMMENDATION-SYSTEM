@@ -1,0 +1,53 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model artifacts (can be large)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Raw datasets: avoid uploading the source data by default
+# Remove the following line if your mentor requires the raw CSV in GitHub
+# data/raw/*.csv
+# Ignore the large generated cleaned dataset
+/data/processed/ted_talks_cleaned.csv
+
+# Generated model/vectorizer artifacts
+artifacts/
+models/
