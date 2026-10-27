@@ -1,4 +1,4 @@
-## Task - 1
+## Task - 1 Environment Setup and TED Talks Dataset Collection
 
 Set Up the Development EnvironmentUse Python, VS Code, and Jupyter Notebook for this task.
 
@@ -73,7 +73,7 @@ Step 6: Check missing values
 Step 7: Check duplicate rows
 Step 8: Check whether talks have unique identifiers
 
-## Task-2
+## Task-2 Exploratory Data Analysis (EDA) and Data Quality Assessment. 
 
 The objective of this task is to understand the collected TED Talks dataset, identify 
 data-quality issues, analyze important patterns, and prepare the data-cleaning plan 
@@ -119,5 +119,50 @@ If fields such as duration or views are available:
  Identify unusual values or patterns. 
  Record your observations.
 
-## Task-3
+## Task-3 Data Cleaning and Text Preprocessing
+
+The raw TED Talks data is taken and is cleaned for text preprocessing.
+
+Activity 1: Load and Review the Dataset 
+ Load the original dataset from data/raw/. 
+ Review the findings from Task 2. 
+ Identify the fields that require cleaning. 
+ Preserve the original dataset without overwriting it. 
+
+Activity 2: Handle Missing Values 
+ Identify missing or empty values in important columns. 
+ Decide how to handle each issue based on the field's purpose. 
+ Do not remove talks with missing transcripts if other useful information is available. 
+ Document your decisions and the reason behind each decision. 
+
+Activity 3: Remove Duplicate Records 
+ Identify exact duplicate rows. 
+ Check for repeated talk identifiers or URLs, where available. 
+ Verify that repeated records represent the same talk before removing them. 
+ Record the number of duplicates identified and removed. 
+
+Activity 4: Clean Text Fields 
+Clean the available text fields, such as title, tags, description, and transcript. 
+Your preprocessing should include: 
+ Converting text to lowercase where appropriate. 
+ Removing unnecessary leading, trailing, and repeated whitespace. 
+ Handling empty strings and missing text consistently. 
+ Applying appropriate punctuation handling without damaging meaningful text.
+
+Activity 5: Create a Combined Text Field 
+Create a new column called combined_text by combining available fields such as title, tags, 
+description, and transcript. 
+This column will be used in the next phase to convert talk content into numerical features for 
+similarity-based recommendations. 
+
+Activity 6: Save the Cleaned Dataset 
+Save the processed dataset to: 
+data/processed/ted_talks_cleaned.csv
+
+## Task-4 Text Vectorization Using TF-IDF and Similarity Analysis.
+
+The objective is to understand and implement the feature-extraction stage of our 
+recommendation system using TF-IDF vectorization. 
+By completing this task, you should be able to explain how the cleaned text becomes numerical 
+data, how similarity is calculated, and how the results can be used to rank related talks. 
 
