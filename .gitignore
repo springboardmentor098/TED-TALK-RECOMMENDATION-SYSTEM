@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Exclude large processed dataset
+data/processed/
+
+# Exclude other raw language datasets
+data/raw/*
+!data/raw/2020-05-01/
+data/raw/2020-05-01/*
+!data/raw/2020-05-01/ted_talks_en.csv
