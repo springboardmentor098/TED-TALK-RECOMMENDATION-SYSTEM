@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/**
+
+# virtual environment
+.venv/
+env/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Large Processed data
+data/processed
+!processed_data.md
