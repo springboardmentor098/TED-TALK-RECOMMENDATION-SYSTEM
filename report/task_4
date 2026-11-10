@@ -1,0 +1,37 @@
+Task 4 Report: TF-IDF Vectorization and Similarity Analysis
+
+Project Title: Personalized TED Talks Recommendation System Using Machine Learning
+
+1. Objective
+
+The objective of this task is to convert cleaned TED Talks text into numerical features using TF-IDF and identify similar talks using cosine similarity.
+
+2. Implementation
+
+I loaded the cleaned TED Talks dataset from "data/processed/ted_talks_cleaned.csv" and checked the available columns and usable records.
+
+I used Scikit-learn's "TfidfVectorizer" to convert the combined text into a numerical matrix. I then calculated cosine similarity scores to identify related talks.
+
+3. Results
+
+- TF-IDF matrix dimensions: [Enter your actual output]
+- Vocabulary sample: [Enter sample words from your output]
+- Selected TED Talks: 3
+- Recommendations: Up to 5 similar talks for each selected talk
+- Output file: "tfidf_recommendations.csv"
+
+4. Concepts Learned
+
+TF-IDF: It converts text into numerical values and gives importance to useful words.
+
+Cosine Similarity: It compares numerical vectors to measure the similarity between TED Talks.
+
+Ranking: It sorts talks according to similarity scores to identify the most similar recommendations.
+
+5. Limitations
+
+TF-IDF mainly considers word patterns and does not fully understand the meaning of text. Talks with similar words may have different meanings, and related talks using different vocabulary may receive lower scores. A high similarity score does not guarantee user satisfaction.
+
+6. Conclusion
+
+I learned how to perform TF-IDF vectorization, calculate cosine similarity, and generate recommendations for TED Talks. This task provides the foundation for developing the recommendation engine in the next stage.

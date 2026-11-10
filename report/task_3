@@ -1,0 +1,41 @@
+Task 3: Data Cleaning and Text Preprocessing
+
+Project Title: Personalized TED Talks Recommendation System Using Machine Learning
+
+1. Objective
+
+The objective of this task is to clean the TED Talks dataset, handle missing values, remove duplicate records, and preprocess text data to prepare it for the recommendation system.
+
+2. Tools Used
+
+- Python
+- Pandas
+- Regular Expressions
+- Jupyter Notebook
+
+3. Work Completed
+
+1. Loaded the original TED Talks dataset from the "data/raw/" folder.
+2. Checked the dataset for missing values, empty strings, and duplicate records.
+3. Handled missing text values without removing talks that had useful information in other fields.
+4. Removed exact duplicate records and checked repeated talk IDs or URLs where available.
+5. Converted text to lowercase and removed unnecessary spaces.
+6. Preserved the original text fields and created cleaned text columns.
+7. Combined the available title, tags, description, and transcript into a new column named "combined_text".
+8. Saved the processed dataset as "data/processed/ted_talks_cleaned.csv".
+
+4. Results
+
+- Missing values were identified and handled according to the purpose of each field.
+- Exact duplicate records were identified and removed.
+- Text fields were cleaned and formatted consistently.
+- A new "combined_text" column was created for text analysis.
+- The cleaned dataset was saved separately without overwriting the original dataset.
+
+5. Limitations
+
+Some TED Talks may have missing transcripts, tags, or descriptions. These talks may still be useful for recommendations if other text information is available. The quality of recommendations depends on the amount and quality of text available for each talk.
+
+6. Conclusion
+
+Task 3 helped prepare the TED Talks dataset for the next stage of the project. The cleaned text data and "combined_text" column can be used for text vectorization using TF-IDF and for calculating similarity between talks. This will help develop a content-based TED Talks recommendation system.

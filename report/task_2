@@ -1,0 +1,100 @@
+TASK 2: Exploratory Data Analysis (EDA) and Data Quality Assessment
+
+Project Name: Personalized TED Talks Recommendation System Using Machine Learning
+
+1. Introduction
+
+In this task, I analyzed the TED Talks dataset using Python. The main purpose was to understand the data, find missing values and duplicate records, analyze text and topics, and identify problems before cleaning the data.
+
+2. Tools Used
+
+- Python – To write the code.
+- Pandas – To read and analyze the dataset.
+- NumPy – To perform numerical calculations.
+- Matplotlib – To create graphs.
+- Seaborn – To create statistical charts.
+- Jupyter Notebook – To write and run the code.
+
+3. Dataset Analysis
+
+First, I loaded the TED Talks dataset into Python.
+
+I checked:
+
+- The total number of rows and columns.
+- The column names and their data types.
+- The basic statistics of numerical columns.
+- The number of unique talks, if an identifier was available.
+
+This helped me understand the structure of the dataset.
+
+4. Missing Values and Duplicates
+
+I checked the dataset for missing values, empty fields, and duplicate records.
+
+Missing values mean that some information is not available. Duplicate records mean that the same record appears more than once.
+
+Missing titles, descriptions, tags, transcripts, or URLs may affect the recommendation system.
+
+I identified these issues without deleting any records.
+
+5. Text Analysis
+
+I analyzed the available titles, descriptions, and transcripts.
+
+I calculated the number of characters and words in the text. I also checked for empty and very short text entries.
+
+I used a histogram to understand the distribution of transcript lengths.
+
+This analysis helps identify incomplete text that may affect recommendations.
+
+6. Tag and Topic Analysis
+
+I checked the tags available in the TED Talks dataset and counted how frequently each tag appeared.
+
+I created a bar chart showing the top 10–15 tags, where sufficient data was available.
+
+This helped me understand which topics appeared most frequently in the dataset.
+
+7. Additional Data Analysis
+
+If duration or views were available, I analyzed their basic statistics and created graphs to understand their distributions.
+
+I also checked for unusual values that might require further investigation.
+
+8. Main Findings
+
+The following findings were examined during the analysis:
+
+1. The total number of rows and columns in the dataset.
+2. The columns containing missing values.
+3. The number of duplicate records.
+4. The length of available transcripts and descriptions.
+5. The most frequently occurring TED Talks tags.
+6. Unusual values in numerical columns, if available.
+
+The actual numbers and observations were recorded from the notebook outputs.
+
+9. Data-Cleaning Plan
+
+Based on the analysis, I prepared the following plan:
+
+- Check and handle missing values appropriately.
+- Remove confirmed duplicate records in the cleaning phase.
+- Investigate missing titles, descriptions, tags, transcripts, and URLs.
+- Clean text by removing unnecessary spaces and standardizing text.
+- Check unusual numerical values before making changes.
+- Save the cleaned data separately without changing the original dataset.
+
+10. Conclusion
+
+In this task, I learned how to analyze the TED Talks dataset using Python. I checked missing values, duplicate records, text lengths, and topic frequencies. I also used graphs to understand the data.
+
+The findings from this task will help me clean and prepare the dataset for the next stage of the Personalized TED Talks Recommendation System.
+
+11. References
+
+- Pandas documentation
+- NumPy documentation
+- Matplotlib documentation
+- Seaborn documentation

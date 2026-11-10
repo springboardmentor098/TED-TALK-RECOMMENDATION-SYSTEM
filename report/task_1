@@ -1,0 +1,30 @@
+Dataset Inspection Report
+
+1. Dataset name and source:
+TED Talks dataset downloaded from Kaggle. Record the exact dataset name and source.
+
+2. Number of rows and columns:
+The dataset contains [actual number] rows and [actual number] columns.
+
+3. Number of unique TED Talks:
+The dataset contains [actual number] unique talk IDs or URLs.
+
+4. Text columns useful for recommendations:
+The available columns are [actual column names]. Titles, descriptions, topics and transcripts can help identify similar talks.
+
+5. Missing values and duplicates:
+Important columns with missing values: [column names and counts].
+Duplicate rows: [actual count].
+Repeated talk identifiers: [actual count, if available].
+
+6. Transcript availability:
+Transcripts are available for [all/some/none] of the talks, based on the inspection results.
+
+7. Dataset limitations:
+Possible limitations include missing text, repeated records, inconsistent topic labels and incomplete metadata.
+
+8. Suitability for the recommendation system:
+The dataset is [suitable/suitable with limitations/not yet suitable] for an initial content-based recommendation prototype because [explain using actual results].
+
+9. Conclusion:
+The initial inspection identified the dataset structure, available text fields, missing values and duplicate records. Further data analysis and cleaning will be completed in the next task.
