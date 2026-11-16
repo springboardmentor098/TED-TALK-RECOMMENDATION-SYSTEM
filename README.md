@@ -221,9 +221,35 @@ The sample review highlighted several limitations:
 
 **Notebook:** `notebooks/04_tfidf_vectorization.ipynb`
 
+### Task 5 — Content-Based TED Talks Recommendation Engine
+
+**Objective:** Develop a reusable Python recommendation function that accepts a TED Talk title and returns the five most similar TED Talks based on their textual content.
+
+This task builds on the TF-IDF vectors and cosine similarity approach developed in Task 4. The recommendation logic is organized into a reusable function so recommendations can be generated for different talks without repeating the complete vectorization and similarity-calculation process each time.
+
+**Activities:**
+
+1. **Load the cleaned dataset:** Load `data/processed/ted_talks_cleaned.csv` and verify that the required talk titles and processed text are available.
+2. **Prepare TF-IDF representations:** Generate TF-IDF vectors from the processed talk text. This preparation is performed as part of system setup, not every time a user requests recommendations.
+3. **Calculate cosine similarity:** Calculate the similarity matrix so that each talk can be compared with the others.
+4. **Create a reusable recommendation function:** Implement `recommend_talks(title, top_n=5)`. The function identifies the selected talk, retrieves its similarity scores, excludes the selected talk itself, and returns the top `top_n` recommendations.
+5. **Handle invalid titles:** Handle a title that does not exist in the dataset appropriately, rather than returning misleading recommendations or failing unexpectedly.
+6. **Test different titles:** Call the function with different TED Talk titles and inspect the returned recommendations.
+7. **Display readable results:** Present recommended talk titles and relevant details, together with similarity scores, in a Pandas DataFrame.
+8. **Document observations and review questions:** Record what the test cases demonstrate and explain the recommendation logic discussed during the review session.
+
+**Important implementation principle:** TF-IDF vectorization and cosine similarity calculation should be performed once when preparing the recommendation system. The reusable function should use the prepared vectors and similarity matrix for subsequent title-based requests.
+
+**Notebook:** `notebooks/05_content_based_recommendation.ipynb`
+
+**Submission requirements:**
+- Submit the completed notebook with its execution outputs.
+- Include screenshots demonstrating successful test cases.
+- Ensure that the function is reusable, clearly organized, and handles invalid TED Talk titles appropriately.
+
 ## Current Project Status
 
-The project work documented in this README covers Tasks 1–4, including sample recommendation generation and an initial limitations review. The current baseline is a content-based recommendation approach using TF-IDF and cosine similarity. Further improvements, evaluation methods, or application development should be documented here as they are implemented and tested.
+Tasks 1–5 have been completed according to the workflow documented in this README. Task 4 established the TF-IDF and cosine-similarity baseline, generated sample recommendations, and documented its limitations. Task 5 builds on that work by organizing the recommendation process into a reusable title-based function. The current project is a content-based recommendation system: it compares talk text and ranks similar talks, but does not yet model individual user preferences, viewing history, or feedback. Further improvements, evaluation methods, or application development should be documented as they are implemented and tested.
 
 ## Notes
 
@@ -231,5 +257,7 @@ The project work documented in this README covers Tasks 1–4, including sample 
 - Run the notebooks in workflow order so that each processed output is available to the next stage.
 - The row order of the DataFrame used for displaying recommendations must remain aligned with the row order used to create the TF-IDF matrix and similarity matrix.
 - The selected talk's own similarity score must be excluded when generating recommendations.
+- In Task 5, prepare the TF-IDF vectors and similarity matrix once; subsequent calls to `recommend_talks(title, top_n=5)` should reuse them rather than recalculating them for every request.
+- The recommendation function should handle titles that are not present in the dataset and return readable recommendation results.
 - Similarity scores are not percentages and should not be interpreted as measures of user satisfaction.
 - Do not commit the local `venv/` environment or large generated dataset files unless repository instructions explicitly require them.
