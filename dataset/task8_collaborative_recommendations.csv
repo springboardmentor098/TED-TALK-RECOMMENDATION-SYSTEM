@@ -1,0 +1,16 @@
+user_id,talk_id,title,predicted_rating,similar_users_count
+U001,1912,How I beat stage fright,5.0,1
+U001,1941,A 50-cent microscope that folds like origami,5.0,3
+U001,15518,Why you should make useless things,5.0,2
+U001,2233,How to make peace? Get angry,5.0,1
+U001,42248,"""The Nutritionist""",5.0,1
+U002,13029,"The ""dead zone"" of the Gulf of Mexico",5.0,1
+U002,1307,Medicine for the 99 percent,5.0,1
+U002,1380,Why I must speak out about climate change,5.0,1
+U002,1993,"Comics that ask ""what if?""",5.0,2
+U002,385,Toys and materials from the future,5.0,4
+U003,1912,How I beat stage fright,5.0,1
+U003,1993,"Comics that ask ""what if?""",5.0,2
+U003,15518,Why you should make useless things,5.0,2
+U003,2233,How to make peace? Get angry,5.0,1
+U003,41678,"How to deconstruct racism, one headline at a time",5.0,1
