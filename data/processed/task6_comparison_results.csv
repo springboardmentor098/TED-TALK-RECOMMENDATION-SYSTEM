@@ -1,0 +1,101 @@
+Experiment,Selected Talk,Recommended Talk,Similarity Score
+Experiment 1 - Title Only,Averting the climate crisis,New thinking on the climate crisis,0.8128
+Experiment 1 - Title Only,Averting the climate crisis,The post-crisis consumer,0.3202
+Experiment 1 - Title Only,Averting the climate crisis,The global learning crisis -- and what to do about it,0.3006
+Experiment 1 - Title Only,Averting the climate crisis,The state of the climate — and what we might do about it,0.2925
+Experiment 1 - Title Only,Averting the climate crisis,Why you should be a climate activist,0.2925
+Experiment 1 - Title Only,The radical promise of the multi-touch interface,Massively multi-player… thumb-wrestling?,0.4659
+Experiment 1 - Title Only,The radical promise of the multi-touch interface,The technology of touch,0.3459
+Experiment 1 - Title Only,The radical promise of the multi-touch interface,A doctor's touch,0.327
+Experiment 1 - Title Only,The radical promise of the multi-touch interface,The promise of research with stem cells,0.2256
+Experiment 1 - Title Only,The radical promise of the multi-touch interface,The best computer interface? Maybe ... your hands,0.2247
+Experiment 1 - Title Only,One Laptop per Child,"One Laptop per Child, two years on",0.8883
+Experiment 1 - Title Only,One Laptop per Child,What it's like to be the child of immigrants,0.3634
+Experiment 1 - Title Only,One Laptop per Child,A child of the state,0.3038
+Experiment 1 - Title Only,One Laptop per Child,Teach every child about food,0.2786
+Experiment 1 - Title Only,One Laptop per Child,Teaching one child at a time,0.2667
+Experiment 1 - Title Only,Do schools kill creativity?,4 lessons in creativity,0.4247
+Experiment 1 - Title Only,Do schools kill creativity?,How state budgets are breaking US schools,0.4061
+Experiment 1 - Title Only,Do schools kill creativity?,Our failing schools. Enough is enough!,0.3949
+Experiment 1 - Title Only,Do schools kill creativity?,Fashion and creativity,0.3932
+Experiment 1 - Title Only,Do schools kill creativity?,Don't kill your language,0.384
+Experiment 1 - Title Only,The best stats you've ever seen,The best kindergarten you’ve ever seen,0.7665
+Experiment 1 - Title Only,The best stats you've ever seen,The sea we've hardly seen,0.4955
+Experiment 1 - Title Only,The best stats you've ever seen,Cooking as never seen before,0.3227
+Experiment 1 - Title Only,The best stats you've ever seen,Surprising stats about child carseats,0.3171
+Experiment 1 - Title Only,The best stats you've ever seen,Turning powerful stats into art,0.2693
+Experiment 2 - Title + Tags,Averting the climate crisis,New thinking on the climate crisis,0.4893
+Experiment 2 - Title + Tags,Averting the climate crisis,Why I must speak out about climate change,0.4004
+Experiment 2 - Title + Tags,Averting the climate crisis,5 transformational policies for a prosperous and sustainable world,0.3856
+Experiment 2 - Title + Tags,Averting the climate crisis,The science behind a climate headline,0.3837
+Experiment 2 - Title + Tags,Averting the climate crisis,The Earth is full,0.3767
+Experiment 2 - Title + Tags,The radical promise of the multi-touch interface,Meet the SixthSense interaction,0.7307
+Experiment 2 - Title + Tags,The radical promise of the multi-touch interface,Why Google Glass?,0.5928
+Experiment 2 - Title + Tags,The radical promise of the multi-touch interface,Rethink the desktop with BumpTop,0.4315
+Experiment 2 - Title + Tags,The radical promise of the multi-touch interface,Reach into the computer and grab a pixel,0.4124
+Experiment 2 - Title + Tags,The radical promise of the multi-touch interface,"5 predictions, from 1984",0.4056
+Experiment 2 - Title + Tags,One Laptop per Child,"One Laptop per Child, two years on",0.3298
+Experiment 2 - Title + Tags,One Laptop per Child,My journey into movies that matter,0.3226
+Experiment 2 - Title + Tags,One Laptop per Child,Africa's cheetahs versus hippos,0.2961
+Experiment 2 - Title + Tags,One Laptop per Child,You are the future of philanthropy,0.2944
+Experiment 2 - Title + Tags,One Laptop per Child,The why and how of effective altruism,0.2891
+Experiment 2 - Title + Tags,Do schools kill creativity?,Creative ways to get kids to thrive in school,0.4116
+Experiment 2 - Title + Tags,Do schools kill creativity?,Kids need structure,0.2804
+Experiment 2 - Title + Tags,Do schools kill creativity?,What adults can learn from kids,0.23
+Experiment 2 - Title + Tags,Do schools kill creativity?,"Doodlers, unite!",0.228
+Experiment 2 - Title + Tags,Do schools kill creativity?,Bring on the learning revolution!,0.2191
+Experiment 2 - Title + Tags,The best stats you've ever seen,New insights on poverty,0.4907
+Experiment 2 - Title + Tags,The best stats you've ever seen,How not to be ignorant about the world,0.4654
+Experiment 2 - Title + Tags,The best stats you've ever seen,Let my dataset change your mindset,0.3985
+Experiment 2 - Title + Tags,The best stats you've ever seen,Medicine for the 99 percent,0.3002
+Experiment 2 - Title + Tags,The best stats you've ever seen,The global goals we've made progress on -- and the ones we haven't,0.2918
+Experiment 3 - Title + Description + Tags,Averting the climate crisis,New thinking on the climate crisis,0.5052
+Experiment 3 - Title + Description + Tags,Averting the climate crisis,Why I must speak out about climate change,0.4012
+Experiment 3 - Title + Description + Tags,Averting the climate crisis,The case for optimism on climate change,0.3818
+Experiment 3 - Title + Description + Tags,Averting the climate crisis,What comes after An Inconvenient Truth?,0.373
+Experiment 3 - Title + Description + Tags,Averting the climate crisis,Can we solve global warming? Lessons from how we protected the ozone layer,0.3623
+Experiment 3 - Title + Description + Tags,The radical promise of the multi-touch interface,The best computer interface? Maybe ... your hands,0.3821
+Experiment 3 - Title + Description + Tags,The radical promise of the multi-touch interface,"5 predictions, from 1984",0.3565
+Experiment 3 - Title + Description + Tags,The radical promise of the multi-touch interface,On the virtual dissection table,0.3376
+Experiment 3 - Title + Description + Tags,The radical promise of the multi-touch interface,Meet the SixthSense interaction,0.3351
+Experiment 3 - Title + Description + Tags,The radical promise of the multi-touch interface,Rethink the desktop with BumpTop,0.3009
+Experiment 3 - Title + Description + Tags,One Laptop per Child,"One Laptop per Child, two years on",0.4716
+Experiment 3 - Title + Description + Tags,One Laptop per Child,Taking OLPC to Colombia,0.385
+Experiment 3 - Title + Description + Tags,One Laptop per Child,"5 predictions, from 1984",0.3405
+Experiment 3 - Title + Description + Tags,One Laptop per Child,A comic sendup of TED2006,0.1808
+Experiment 3 - Title + Description + Tags,One Laptop per Child,Africa's cheetahs versus hippos,0.1665
+Experiment 3 - Title + Description + Tags,Do schools kill creativity?,Bring on the learning revolution!,0.3144
+Experiment 3 - Title + Description + Tags,Do schools kill creativity?,The benefits of music education,0.2032
+Experiment 3 - Title + Description + Tags,Do schools kill creativity?,Use data to build better schools,0.1919
+Experiment 3 - Title + Description + Tags,Do schools kill creativity?,The child-driven education,0.1903
+Experiment 3 - Title + Description + Tags,Do schools kill creativity?,The orchestra in my mouth,0.1902
+Experiment 3 - Title + Description + Tags,The best stats you've ever seen,Let my dataset change your mindset,0.4268
+Experiment 3 - Title + Description + Tags,The best stats you've ever seen,New insights on poverty,0.4051
+Experiment 3 - Title + Description + Tags,The best stats you've ever seen,How not to be ignorant about the world,0.2876
+Experiment 3 - Title + Description + Tags,The best stats you've ever seen,Asia's rise -- how and when,0.2722
+Experiment 3 - Title + Description + Tags,The best stats you've ever seen,The good news of the decade? We're winning the war against child mortality,0.247
+Experiment 4 - Title + Description + Transcript + Tags,Averting the climate crisis,New thinking on the climate crisis,0.3573
+Experiment 4 - Title + Description + Transcript + Tags,Averting the climate crisis,How we can turn the tide on climate,0.3535
+Experiment 4 - Title + Description + Transcript + Tags,Averting the climate crisis,A climate solution where all sides can win,0.3466
+Experiment 4 - Title + Description + Transcript + Tags,Averting the climate crisis,How we could change the planet's climate future,0.3447
+Experiment 4 - Title + Description + Transcript + Tags,Averting the climate crisis,Can we stop climate change by removing CO2 from the air?,0.3369
+Experiment 4 - Title + Description + Transcript + Tags,The radical promise of the multi-touch interface,Rethink the desktop with BumpTop,0.3461
+Experiment 4 - Title + Description + Transcript + Tags,The radical promise of the multi-touch interface,Everything around you can become a computer,0.3256
+Experiment 4 - Title + Description + Transcript + Tags,The radical promise of the multi-touch interface,"5 predictions, from 1984",0.315
+Experiment 4 - Title + Description + Transcript + Tags,The radical promise of the multi-touch interface,Pointing to the future of UI,0.308
+Experiment 4 - Title + Description + Transcript + Tags,The radical promise of the multi-touch interface,Shape-shifting tech will change work as we know it,0.3017
+Experiment 4 - Title + Description + Transcript + Tags,One Laptop per Child,"One Laptop per Child, two years on",0.4931
+Experiment 4 - Title + Description + Transcript + Tags,One Laptop per Child,Taking OLPC to Colombia,0.425
+Experiment 4 - Title + Description + Transcript + Tags,One Laptop per Child,A 30-year history of the future,0.361
+Experiment 4 - Title + Description + Transcript + Tags,One Laptop per Child,Designing objects that tell stories,0.3529
+Experiment 4 - Title + Description + Transcript + Tags,One Laptop per Child,The thinking behind 50x15,0.3509
+Experiment 4 - Title + Description + Transcript + Tags,Do schools kill creativity?,Bring on the learning revolution!,0.4948
+Experiment 4 - Title + Description + Transcript + Tags,Do schools kill creativity?,How to escape education's death valley,0.4761
+Experiment 4 - Title + Description + Transcript + Tags,Do schools kill creativity?,Nerdcore comedy,0.4109
+Experiment 4 - Title + Description + Transcript + Tags,Do schools kill creativity?,A one-man world summit,0.4033
+Experiment 4 - Title + Description + Transcript + Tags,Do schools kill creativity?,Every kid needs a champion,0.3709
+Experiment 4 - Title + Description + Transcript + Tags,The best stats you've ever seen,Let my dataset change your mindset,0.6294
+Experiment 4 - Title + Description + Transcript + Tags,The best stats you've ever seen,New insights on poverty,0.4709
+Experiment 4 - Title + Description + Transcript + Tags,The best stats you've ever seen,The good news of the decade? We're winning the war against child mortality,0.4155
+Experiment 4 - Title + Description + Transcript + Tags,The best stats you've ever seen,"Insights on HIV, in stunning data visuals",0.3863
+Experiment 4 - Title + Description + Transcript + Tags,The best stats you've ever seen,"Global population growth, box by box",0.3725
