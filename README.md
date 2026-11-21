@@ -261,3 +261,37 @@ Tasks 1–5 have been completed according to the workflow documented in this REA
 - The recommendation function should handle titles that are not present in the dataset and return readable recommendation results.
 - Similarity scores are not percentages and should not be interpreted as measures of user satisfaction.
 - Do not commit the local `venv/` environment or large generated dataset files unless repository instructions explicitly require them.
+
+### Task 6 — Feature Selection and Recommendation Quality Evaluation
+
+In this task, four different feature combinations were experimented with to evaluate their impact on TED Talk recommendation quality using TF-IDF vectorization and cosine similarity.
+
+The experiments were conducted using five sample TED Talks:
+
+1. Letting go of God
+2. Do schools kill creativity?
+3. My wish: A global day of film
+4. The birth of Wikipedia
+5. Improvising on piano, aged 14
+
+The following observations were made:
+
+- **Experiment 1 – Title Only:** Recommendations were primarily influenced by overlapping words in TED Talk titles. Although some relevant talks were identified, several recommendations shared individual words without necessarily discussing similar subjects. This indicated that titles alone provide limited information for generating meaningful recommendations.
+
+- **Experiment 2 – Title + Tags:** Adding topics improved recommendation relevance by introducing additional subject-related information. Recommendations became more closely associated with the original talk's theme, particularly for religion, films and online collaboration. This demonstrated the importance of topic information in content-based recommendation.
+
+- **Experiment 3 – Title + Description + Tags:** Including descriptions provided additional contextual information and improved recommendations for certain topics, particularly education. However, some unrelated recommendations were still generated, suggesting that descriptions may introduce additional vocabulary that does not always contribute to recommendation relevance.
+
+- **Experiment 4 – Title + Description + Transcript + Tags:** Including transcripts provided a more comprehensive representation of each TED Talk's content. The recommendations showed stronger contextual relationships in several examples, particularly for education, films and music. However, a few irrelevant recommendations were still observed.
+
+### Final Feature Selection
+
+Based on the observations from all four experiments, **Experiment 4 – Title + Description + Transcript + Tags** was selected as the preferred feature combination for the TED Talks Recommendation System.
+
+The primary reason for this selection is that it incorporates multiple sources of textual information, allowing the recommendation model to consider not only the title and topics but also the descriptions and actual spoken content of each TED Talk.
+
+Although including transcripts increases the amount of textual data and does not guarantee that every recommendation will be relevant, it provides a richer representation of the talks and produced more meaningful contextual recommendations across most of the selected examples.
+
+Therefore, Experiment 4 was considered the most suitable feature combination among the four approaches evaluated and will be used as the preferred feature set for further development of the recommendation system.
+
+**Overall Learning:** The experiments demonstrated that feature selection plays an important role in content-based recommendation systems. Combining different textual features can improve the representation of content and help generate more contextually relevant recommendations than relying on titles alone.
