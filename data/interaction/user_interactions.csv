@@ -1,0 +1,38 @@
+user_id,talk_id,title,rating,liked,watched,bookmarked
+U001,1,Averting the climate crisis,5,True,True,True
+U001,92,The best stats you've ever seen,4,True,True,False
+U001,7,Simplicity sells,3,False,True,False
+U001,53,Greening the ghetto,5,True,True,True
+U001,66,Do schools kill creativity?,2,False,True,False
+U001,49,Behind the design of Seattle's library,4,True,True,False
+U001,86,Letting go of God,5,True,True,True
+U001,94,Let's teach religion -- all religion -- in schools,3,False,True,False
+U002,1,Averting the climate crisis,4,True,True,False
+U002,92,The best stats you've ever seen,5,True,True,True
+U002,7,Simplicity sells,2,False,True,False
+U002,53,Greening the ghetto,4,True,True,False
+U002,66,Do schools kill creativity?,5,True,True,True
+U002,49,Behind the design of Seattle's library,3,False,True,False
+U002,86,Letting go of God,4,True,True,False
+U003,1,Averting the climate crisis,2,False,True,False
+U003,92,The best stats you've ever seen,3,False,True,False
+U003,7,Simplicity sells,5,True,True,True
+U003,53,Greening the ghetto,4,True,True,False
+U003,66,Do schools kill creativity?,3,False,True,False
+U003,49,Behind the design of Seattle's library,5,True,True,True
+U003,86,Letting go of God,4,True,True,False
+U003,94,Let's teach religion -- all religion -- in schools,2,False,True,False
+U004,1,Averting the climate crisis,5,True,True,True
+U004,92,The best stats you've ever seen,4,True,True,False
+U004,7,Simplicity sells,4,True,True,False
+U004,53,Greening the ghetto,2,False,True,False
+U004,66,Do schools kill creativity?,5,True,True,True
+U004,49,Behind the design of Seattle's library,4,True,True,False
+U005,1,Averting the climate crisis,3,False,True,False
+U005,92,The best stats you've ever seen,5,True,True,True
+U005,7,Simplicity sells,4,True,True,False
+U005,53,Greening the ghetto,5,True,True,True
+U005,66,Do schools kill creativity?,3,False,True,False
+U005,49,Behind the design of Seattle's library,2,False,True,False
+U005,86,Letting go of God,4,True,True,False
+U005,94,Let's teach religion -- all religion -- in schools,5,True,True,True
