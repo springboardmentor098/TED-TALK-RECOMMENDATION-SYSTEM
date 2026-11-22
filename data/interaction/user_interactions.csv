@@ -1,0 +1,16 @@
+user_id,talk_id,rating,like_dislike,interaction_type
+1,1,5,Like,Watched
+1,92,4,Like,Watched
+1,7,3,Dislike,Watched
+2,1,4,Like,Watched
+2,53,5,Like,Watched
+2,66,3,Dislike,Watched
+3,92,5,Like,Watched
+3,7,4,Like,Watched
+3,66,2,Dislike,Watched
+4,1,3,Dislike,Watched
+4,7,5,Like,Watched
+4,53,4,Like,Watched
+5,92,4,Like,Watched
+5,53,5,Like,Watched
+5,66,3,Dislike,Watched
