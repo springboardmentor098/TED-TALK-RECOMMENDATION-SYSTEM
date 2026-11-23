@@ -1,0 +1,11 @@
+##Task 6 – Feature Selection and Recommendation Quality Evaluation##
+
+1. Title-only recommendations mainly identify talks with similar words in their titles.
+2. Title and tags provide additional topic-related information.
+3. Adding descriptions helps identify talks with related concepts.
+4. Adding transcripts provides more detailed information about the content of each talk.
+5. However, transcripts may also introduce unrelated words and additional noise.
+6. The best feature combination should be selected based on both similarity scores and manual relevance evaluation.
+Final feature selection justification:
+
+A reasonable starting choice is Title + Description + Tags because these features provide useful topic information without introducing the full length and possible noise of transcripts. However, do not finalize this choice until you have examined your actual experiment results. If transcripts consistently improve relevance, select all four features instead.
