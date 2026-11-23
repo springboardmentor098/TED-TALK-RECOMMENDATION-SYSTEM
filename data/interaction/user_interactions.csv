@@ -1,0 +1,811 @@
+user_id,talk_id,rating,liked,watched,simulated_interest_group
+user_01,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,technology
+user_01,"Silk Road Ensemble: ""Turceasca""",3,False,True,technology
+user_01,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,3,False,True,technology
+user_01,Morgana Bailey: The danger of hiding who you are,4,True,True,technology
+user_01,Erik Hersman: Reporting crisis via texting,4,True,True,technology
+user_01,Kevin Bales: How to combat modern slavery,3,False,True,technology
+user_01,Rives: The Museum of Four in the Morning,3,False,True,technology
+user_01,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,4,True,True,technology
+user_01,"Leah Buechley: How to ""sketch"" with electronics",4,True,True,technology
+user_01,Stefan Sagmeister: The power of time off,3,False,True,technology
+user_01,Candy Chang: Before I die I want to ...,3,False,True,technology
+user_01,Michael Norton: How to buy happiness,3,False,True,technology
+user_01,Adam Savage: My obsession with objects and the stories they tell,3,False,True,technology
+user_01,Shukla Bose: Teaching one child at a time,3,False,True,technology
+user_01,"Ji-Hae Park: The violin, and my dark night of the soul",4,True,True,technology
+user_01,Amber Case: We are all cyborgs now,3,False,True,technology
+user_01,Nagin Cox: What time is it on Mars?,4,True,True,technology
+user_01,Philip Zimbardo: The psychology of evil,2,False,True,technology
+user_01,"Frank Gehry: A master architect asks, Now what?",4,True,True,technology
+user_01,Rajiv Maheswaran: The math behind basketball's wildest moves,4,True,True,technology
+user_01,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,3,False,True,technology
+user_01,Charles Robertson: Africa's next boom,3,False,True,technology
+user_01,Jessica Green: We're covered in germs. Let's design for that.,4,True,True,technology
+user_01,Ruth Chang: How to make hard choices,3,False,True,technology
+user_01,Steven Schwaitzberg: A universal translator for surgeons,3,False,True,technology
+user_01,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,4,True,True,technology
+user_01,Andrew Stanton: The clues to a great story,3,False,True,technology
+user_01,Michael Pawlyn: Using nature's genius in architecture,2,False,True,technology
+user_01,Eric Whitacre: Virtual Choir Live,3,False,True,technology
+user_01,"Melvin Russell: I love being a police officer, but we need reform",2,False,True,technology
+user_01,Ray Kurzweil: The accelerating power of technology,4,True,True,technology
+user_01,Pete Alcorn: The world in 2200,3,False,True,technology
+user_01,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,technology
+user_01,Stefan Sagmeister: 7 rules for making more happiness,4,True,True,technology
+user_01,Bill Gross: The single biggest reason why startups succeed,4,True,True,technology
+user_01,Seth Berkley: HIV and flu -- the vaccine strategy,3,False,True,technology
+user_01,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,technology
+user_01,Benjamin Grant: What it feels like to see Earth from space,3,False,True,technology
+user_01,Garry Kasparov: Don't fear intelligent machines. Work with them,3,False,True,technology
+user_01,David Pogue: 10 top time-saving tech tips,4,True,True,technology
+user_01,Robyn Stein DeLuca: The good news about PMS,3,False,True,technology
+user_01,Kees Moeliker: How a dead duck changed my life,2,False,True,technology
+user_01,Siegfried Woldhek: The search for the true face of Leonardo,4,True,True,technology
+user_01,Steve Jurvetson: Model rocketry,3,False,True,technology
+user_01,Dean Kamen: To invent is to give,4,True,True,technology
+user_02,Laura Indolfi: Good news in the fight against pancreatic cancer,4,True,True,science_health
+user_02,"Thomas Dolby: ""Love Is a Loaded Pistol""",4,True,True,science_health
+user_02,Jae Rhim Lee: My mushroom burial suit,2,False,True,science_health
+user_02,Robin Morgan: 4 powerful poems about Parkinson's and growing older,3,False,True,science_health
+user_02,Uri Hasson: This is your brain on communication,4,True,True,science_health
+user_02,"Frank Gehry: A master architect asks, Now what?",4,True,True,science_health
+user_02,Conrad Wolfram: Teaching kids real math with computers,4,True,True,science_health
+user_02,Robyn Stein DeLuca: The good news about PMS,5,True,True,science_health
+user_02,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,3,False,True,science_health
+user_02,Liz Hajek: What rivers can tell us about the earth's history,3,False,True,science_health
+user_02,Kees Moeliker: How a dead duck changed my life,2,False,True,science_health
+user_02,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",3,False,True,science_health
+user_02,Benjamin Zander: The transformative power of classical music,2,False,True,science_health
+user_02,Joe Lassiter: We need nuclear power to solve climate change,4,True,True,science_health
+user_02,Natalie Jeremijenko: The art of the eco-mindshift,3,False,True,science_health
+user_02,Marlene Zuk: What we learn from insects' sex lives,4,True,True,science_health
+user_02,Brené Brown: Listening to shame,4,True,True,science_health
+user_02,Helen Fisher: The brain in love,4,True,True,science_health
+user_02,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,science_health
+user_02,Ari Wallach: 3 ways to plan for the (very) long term,2,False,True,science_health
+user_02,Nagin Cox: What time is it on Mars?,2,False,True,science_health
+user_02,"Sara Ramirez: ""Rollercoaster""",3,False,True,science_health
+user_02,Bill Gross: The single biggest reason why startups succeed,3,False,True,science_health
+user_02,Mitchell Besser: Mothers helping mothers fight HIV,5,True,True,science_health
+user_02,"Michele L. Sullivan: Asking for help is a strength, not a weakness",3,False,True,science_health
+user_02,Taylor Wilson: My radical plan for small nuclear fission reactors,4,True,True,science_health
+user_02,Rives: The Museum of Four in the Morning,3,False,True,science_health
+user_02,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,3,False,True,science_health
+user_02,Bill Davenhall: Your health depends on where you live,3,False,True,science_health
+user_02,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,science_health
+user_02,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,4,True,True,science_health
+user_02,Candy Chang: Before I die I want to ...,2,False,True,science_health
+user_02,Ray Kurzweil: The accelerating power of technology,4,True,True,science_health
+user_02,Steven Schwaitzberg: A universal translator for surgeons,2,False,True,science_health
+user_02,Tabetha Boyajian: The most mysterious star in the universe,4,True,True,science_health
+user_02,Johan Rockstrom: Let the environment guide our development,4,True,True,science_health
+user_02,Marcus Byrne: The dance of the dung beetle,4,True,True,science_health
+user_02,Ray Kurzweil: A university for the coming singularity,3,False,True,science_health
+user_02,Pete Alcorn: The world in 2200,3,False,True,science_health
+user_02,Suzanne Talhouk: Don't kill your language,4,True,True,science_health
+user_02,"Andrew Solomon: Love, no matter what",3,False,True,science_health
+user_02,Rajiv Maheswaran: The math behind basketball's wildest moves,2,False,True,science_health
+user_02,Jamila Raqib: The secret to effective nonviolent resistance,2,False,True,science_health
+user_02,Benjamin Grant: What it feels like to see Earth from space,4,True,True,science_health
+user_02,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,5,True,True,science_health
+user_03,Bill Gross: The single biggest reason why startups succeed,3,False,True,education_society
+user_03,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,education_society
+user_03,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,education_society
+user_03,"Frank Gehry: A master architect asks, Now what?",3,False,True,education_society
+user_03,Mary Bassett: Why your doctor should care about social justice,2,False,True,education_society
+user_03,Charles Robertson: Africa's next boom,4,True,True,education_society
+user_03,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,4,True,True,education_society
+user_03,Emiliano Salinas: A civil response to violence,5,True,True,education_society
+user_03,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",5,True,True,education_society
+user_03,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,2,False,True,education_society
+user_03,Andrew Youn: 3 reasons why we can win the fight against poverty,4,True,True,education_society
+user_03,Steve Truglia: A leap from the edge of space,2,False,True,education_society
+user_03,Robin Morgan: 4 powerful poems about Parkinson's and growing older,3,False,True,education_society
+user_03,Robyn Stein DeLuca: The good news about PMS,3,False,True,education_society
+user_03,Ruth Chang: How to make hard choices,4,True,True,education_society
+user_03,Laura Indolfi: Good news in the fight against pancreatic cancer,3,False,True,education_society
+user_03,Steven Schwaitzberg: A universal translator for surgeons,3,False,True,education_society
+user_03,"Leah Buechley: How to ""sketch"" with electronics",2,False,True,education_society
+user_03,Stefan Sagmeister: 7 rules for making more happiness,3,False,True,education_society
+user_03,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,education_society
+user_03,Michael Norton: How to buy happiness,3,False,True,education_society
+user_03,Jessica Green: We're covered in germs. Let's design for that.,2,False,True,education_society
+user_03,Ray Kurzweil: The accelerating power of technology,3,False,True,education_society
+user_03,Michael Shermer: Why people believe weird things,2,False,True,education_society
+user_03,Liz Hajek: What rivers can tell us about the earth's history,2,False,True,education_society
+user_03,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,5,True,True,education_society
+user_03,David Pogue: 10 top time-saving tech tips,2,False,True,education_society
+user_03,Tabetha Boyajian: The most mysterious star in the universe,2,False,True,education_society
+user_03,"Steven Johnson: How the ""ghost map"" helped end a killer disease",4,True,True,education_society
+user_03,Benjamin Grant: What it feels like to see Earth from space,5,True,True,education_society
+user_03,"Michele L. Sullivan: Asking for help is a strength, not a weakness",3,False,True,education_society
+user_03,Jim Holt: Why does the universe exist?,3,False,True,education_society
+user_03,Morgana Bailey: The danger of hiding who you are,4,True,True,education_society
+user_03,Andrew Stanton: The clues to a great story,5,True,True,education_society
+user_03,Seth Berkley: HIV and flu -- the vaccine strategy,2,False,True,education_society
+user_03,Benjamin Zander: The transformative power of classical music,4,True,True,education_society
+user_03,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,4,True,True,education_society
+user_03,Brené Brown: Listening to shame,3,False,True,education_society
+user_03,Raspyni Brothers: Juggle and jest,3,False,True,education_society
+user_03,"Ji-Hae Park: The violin, and my dark night of the soul",3,False,True,education_society
+user_03,Jonas Eliasson: How to solve traffic jams,2,False,True,education_society
+user_03,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,4,True,True,education_society
+user_03,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,4,True,True,education_society
+user_03,"Thomas Dolby: ""Love Is a Loaded Pistol""",3,False,True,education_society
+user_03,Pete Alcorn: The world in 2200,3,False,True,education_society
+user_04,Rives: The Museum of Four in the Morning,2,False,True,technology
+user_04,Fawn Qiu: Easy DIY projects for kid engineers,4,True,True,technology
+user_04,Dean Kamen: To invent is to give,5,True,True,technology
+user_04,Mark Bezos: A life lesson from a volunteer firefighter,3,False,True,technology
+user_04,"Ji-Hae Park: The violin, and my dark night of the soul",4,True,True,technology
+user_04,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,4,True,True,technology
+user_04,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,technology
+user_04,Morgana Bailey: The danger of hiding who you are,4,True,True,technology
+user_04,Marlene Zuk: What we learn from insects' sex lives,3,False,True,technology
+user_04,"Sara Ramirez: ""Rollercoaster""",4,True,True,technology
+user_04,Liz Hajek: What rivers can tell us about the earth's history,3,False,True,technology
+user_04,Rick Smolan: The story of a girl,3,False,True,technology
+user_04,Stefan Sagmeister: The power of time off,3,False,True,technology
+user_04,"Melvin Russell: I love being a police officer, but we need reform",4,True,True,technology
+user_04,"Steven Addis: A father-daughter bond, one photo at a time",2,False,True,technology
+user_04,Michael Pawlyn: Using nature's genius in architecture,4,True,True,technology
+user_04,Helen Fisher: The brain in love,3,False,True,technology
+user_04,Andrew Stanton: The clues to a great story,4,True,True,technology
+user_04,Conrad Wolfram: Teaching kids real math with computers,4,True,True,technology
+user_04,Shukla Bose: Teaching one child at a time,4,True,True,technology
+user_04,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,3,False,True,technology
+user_04,Ray Kurzweil: A university for the coming singularity,3,False,True,technology
+user_04,Steve Truglia: A leap from the edge of space,4,True,True,technology
+user_04,"Leah Buechley: How to ""sketch"" with electronics",3,False,True,technology
+user_04,Raghava KK: What's your 200-year plan?,3,False,True,technology
+user_04,Tim Leberecht: 3 ways to (usefully) lose control of your brand,5,True,True,technology
+user_04,Jessica Green: We're covered in germs. Let's design for that.,4,True,True,technology
+user_04,Candy Chang: Before I die I want to ...,3,False,True,technology
+user_04,Johan Rockstrom: Let the environment guide our development,2,False,True,technology
+user_04,Seyi Oyesola: A hospital tour in Nigeria,4,True,True,technology
+user_04,Amber Case: We are all cyborgs now,3,False,True,technology
+user_04,Jamila Raqib: The secret to effective nonviolent resistance,3,False,True,technology
+user_04,Kees Moeliker: How a dead duck changed my life,3,False,True,technology
+user_04,Uri Hasson: This is your brain on communication,4,True,True,technology
+user_04,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,3,False,True,technology
+user_04,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,2,False,True,technology
+user_04,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,technology
+user_04,"Steven Johnson: How the ""ghost map"" helped end a killer disease",3,False,True,technology
+user_04,Robyn Stein DeLuca: The good news about PMS,3,False,True,technology
+user_04,Marcus Byrne: The dance of the dung beetle,4,True,True,technology
+user_04,Emiliano Salinas: A civil response to violence,2,False,True,technology
+user_04,Ruth Chang: How to make hard choices,3,False,True,technology
+user_04,Steve Jurvetson: Model rocketry,4,True,True,technology
+user_04,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,2,False,True,technology
+user_04,Ari Wallach: 3 ways to plan for the (very) long term,5,True,True,technology
+user_05,Andrew Stanton: The clues to a great story,3,False,True,science_health
+user_05,Stefan Sagmeister: 7 rules for making more happiness,3,False,True,science_health
+user_05,Adam Savage: My obsession with objects and the stories they tell,4,True,True,science_health
+user_05,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,4,True,True,science_health
+user_05,Kees Moeliker: How a dead duck changed my life,3,False,True,science_health
+user_05,Charles Robertson: Africa's next boom,3,False,True,science_health
+user_05,Eric Whitacre: Virtual Choir Live,3,False,True,science_health
+user_05,Ruth Chang: How to make hard choices,4,True,True,science_health
+user_05,Robyn Stein DeLuca: The good news about PMS,4,True,True,science_health
+user_05,Helen Fisher: The brain in love,4,True,True,science_health
+user_05,Johan Rockstrom: Let the environment guide our development,4,True,True,science_health
+user_05,"Steven Johnson: How the ""ghost map"" helped end a killer disease",4,True,True,science_health
+user_05,Bill Gross: The single biggest reason why startups succeed,4,True,True,science_health
+user_05,Steve Jurvetson: Model rocketry,2,False,True,science_health
+user_05,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,2,False,True,science_health
+user_05,Amber Case: We are all cyborgs now,2,False,True,science_health
+user_05,Jonas Eliasson: How to solve traffic jams,1,False,True,science_health
+user_05,"Steven Addis: A father-daughter bond, one photo at a time",3,False,True,science_health
+user_05,Marcus Byrne: The dance of the dung beetle,4,True,True,science_health
+user_05,"Thomas Dolby: ""Love Is a Loaded Pistol""",4,True,True,science_health
+user_05,Mitchell Besser: Mothers helping mothers fight HIV,4,True,True,science_health
+user_05,David Pogue: 10 top time-saving tech tips,4,True,True,science_health
+user_05,Steven Schwaitzberg: A universal translator for surgeons,4,True,True,science_health
+user_05,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,3,False,True,science_health
+user_05,Laura Indolfi: Good news in the fight against pancreatic cancer,5,True,True,science_health
+user_05,Joe Lassiter: We need nuclear power to solve climate change,4,True,True,science_health
+user_05,Taylor Wilson: My radical plan for small nuclear fission reactors,3,False,True,science_health
+user_05,Jae Rhim Lee: My mushroom burial suit,3,False,True,science_health
+user_05,Robin Morgan: 4 powerful poems about Parkinson's and growing older,3,False,True,science_health
+user_05,Torsten Reil: Animate characters by evolving them,2,False,True,science_health
+user_05,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,4,True,True,science_health
+user_05,Nagin Cox: What time is it on Mars?,4,True,True,science_health
+user_05,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,4,True,True,science_health
+user_05,Jinsop Lee: Design for all 5 senses,2,False,True,science_health
+user_05,Kevin Bales: How to combat modern slavery,3,False,True,science_health
+user_05,"Ji-Hae Park: The violin, and my dark night of the soul",2,False,True,science_health
+user_05,Karen Tse: How to stop torture,3,False,True,science_health
+user_05,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,science_health
+user_05,"Leah Buechley: How to ""sketch"" with electronics",2,False,True,science_health
+user_05,Rick Smolan: The story of a girl,4,True,True,science_health
+user_05,Rajiv Maheswaran: The math behind basketball's wildest moves,3,False,True,science_health
+user_05,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,science_health
+user_05,Steve Truglia: A leap from the edge of space,2,False,True,science_health
+user_05,Tabetha Boyajian: The most mysterious star in the universe,3,False,True,science_health
+user_05,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,science_health
+user_06,Laura Indolfi: Good news in the fight against pancreatic cancer,3,False,True,education_society
+user_06,"Silk Road Ensemble: ""Turceasca""",3,False,True,education_society
+user_06,Michael Norton: How to buy happiness,3,False,True,education_society
+user_06,Torsten Reil: Animate characters by evolving them,3,False,True,education_society
+user_06,"Melvin Russell: I love being a police officer, but we need reform",3,False,True,education_society
+user_06,Ari Wallach: 3 ways to plan for the (very) long term,3,False,True,education_society
+user_06,Michael Shermer: Why people believe weird things,4,True,True,education_society
+user_06,"Thomas Dolby: ""Love Is a Loaded Pistol""",3,False,True,education_society
+user_06,Emiliano Salinas: A civil response to violence,4,True,True,education_society
+user_06,Anna Mracek Dietrich: A plane you can drive,3,False,True,education_society
+user_06,Liz Hajek: What rivers can tell us about the earth's history,3,False,True,education_society
+user_06,Conrad Wolfram: Teaching kids real math with computers,4,True,True,education_society
+user_06,"Andrew Solomon: Love, no matter what",3,False,True,education_society
+user_06,Karen Tse: How to stop torture,4,True,True,education_society
+user_06,David Pogue: 10 top time-saving tech tips,2,False,True,education_society
+user_06,Eric Whitacre: Virtual Choir Live,2,False,True,education_society
+user_06,Robin Morgan: 4 powerful poems about Parkinson's and growing older,4,True,True,education_society
+user_06,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,4,True,True,education_society
+user_06,Helen Fisher: The brain in love,3,False,True,education_society
+user_06,Rives: The Museum of Four in the Morning,2,False,True,education_society
+user_06,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,2,False,True,education_society
+user_06,Rick Smolan: The story of a girl,3,False,True,education_society
+user_06,Jamila Raqib: The secret to effective nonviolent resistance,5,True,True,education_society
+user_06,Stefan Sagmeister: The power of time off,3,False,True,education_society
+user_06,Nagin Cox: What time is it on Mars?,3,False,True,education_society
+user_06,Candy Chang: Before I die I want to ...,4,True,True,education_society
+user_06,Suzanne Talhouk: Don't kill your language,2,False,True,education_society
+user_06,Jinsop Lee: Design for all 5 senses,3,False,True,education_society
+user_06,Robyn Stein DeLuca: The good news about PMS,3,False,True,education_society
+user_06,Andrew Stanton: The clues to a great story,4,True,True,education_society
+user_06,Adam Savage: My obsession with objects and the stories they tell,4,True,True,education_society
+user_06,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,education_society
+user_06,Michael Pawlyn: Using nature's genius in architecture,3,False,True,education_society
+user_06,Charles Robertson: Africa's next boom,3,False,True,education_society
+user_06,Marcus Byrne: The dance of the dung beetle,4,True,True,education_society
+user_06,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,5,True,True,education_society
+user_06,Ray Kurzweil: The accelerating power of technology,2,False,True,education_society
+user_06,Philip Zimbardo: The psychology of evil,3,False,True,education_society
+user_06,Rajiv Maheswaran: The math behind basketball's wildest moves,4,True,True,education_society
+user_06,Joe Lassiter: We need nuclear power to solve climate change,3,False,True,education_society
+user_06,Ruth Chang: How to make hard choices,4,True,True,education_society
+user_06,Jessica Green: We're covered in germs. Let's design for that.,3,False,True,education_society
+user_06,Benjamin Zander: The transformative power of classical music,5,True,True,education_society
+user_06,Dean Kamen: To invent is to give,3,False,True,education_society
+user_06,Pete Alcorn: The world in 2200,4,True,True,education_society
+user_07,"Andrew Solomon: Love, no matter what",3,False,True,technology
+user_07,Rajiv Maheswaran: The math behind basketball's wildest moves,3,False,True,technology
+user_07,Benjamin Grant: What it feels like to see Earth from space,3,False,True,technology
+user_07,David Pogue: 10 top time-saving tech tips,3,False,True,technology
+user_07,"Aziza Chaouni: How I brought a river, and my city, back to life",5,True,True,technology
+user_07,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,5,True,True,technology
+user_07,Pete Alcorn: The world in 2200,3,False,True,technology
+user_07,"Michele L. Sullivan: Asking for help is a strength, not a weakness",3,False,True,technology
+user_07,Eric Whitacre: Virtual Choir Live,2,False,True,technology
+user_07,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,technology
+user_07,Michael Pawlyn: Using nature's genius in architecture,3,False,True,technology
+user_07,Mark Bezos: A life lesson from a volunteer firefighter,2,False,True,technology
+user_07,Taylor Wilson: My radical plan for small nuclear fission reactors,3,False,True,technology
+user_07,Ari Wallach: 3 ways to plan for the (very) long term,5,True,True,technology
+user_07,Karen Tse: How to stop torture,2,False,True,technology
+user_07,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,2,False,True,technology
+user_07,Rives: The Museum of Four in the Morning,3,False,True,technology
+user_07,Jinsop Lee: Design for all 5 senses,5,True,True,technology
+user_07,"Sara Ramirez: ""Rollercoaster""",2,False,True,technology
+user_07,James Balog: Time-lapse proof of extreme ice loss,3,False,True,technology
+user_07,Tim Leberecht: 3 ways to (usefully) lose control of your brand,5,True,True,technology
+user_07,Steve Jurvetson: Model rocketry,3,False,True,technology
+user_07,Andrew Youn: 3 reasons why we can win the fight against poverty,2,False,True,technology
+user_07,Siegfried Woldhek: The search for the true face of Leonardo,4,True,True,technology
+user_07,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",3,False,True,technology
+user_07,Ray Kurzweil: A university for the coming singularity,4,True,True,technology
+user_07,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,3,False,True,technology
+user_07,Michael Shermer: Why people believe weird things,2,False,True,technology
+user_07,Anna Mracek Dietrich: A plane you can drive,4,True,True,technology
+user_07,Jae Rhim Lee: My mushroom burial suit,3,False,True,technology
+user_07,Michael Norton: How to buy happiness,4,True,True,technology
+user_07,Steve Truglia: A leap from the edge of space,3,False,True,technology
+user_07,Andrew Stanton: The clues to a great story,3,False,True,technology
+user_07,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,3,False,True,technology
+user_07,Raspyni Brothers: Juggle and jest,4,True,True,technology
+user_07,Bill Davenhall: Your health depends on where you live,3,False,True,technology
+user_07,"Ji-Hae Park: The violin, and my dark night of the soul",2,False,True,technology
+user_07,Alex Steffen: The route to a sustainable future,4,True,True,technology
+user_07,Adam Savage: My obsession with objects and the stories they tell,2,False,True,technology
+user_07,Candy Chang: Before I die I want to ...,3,False,True,technology
+user_07,Charles Robertson: Africa's next boom,2,False,True,technology
+user_07,Marcus Byrne: The dance of the dung beetle,3,False,True,technology
+user_07,Liz Hajek: What rivers can tell us about the earth's history,2,False,True,technology
+user_07,Robyn Stein DeLuca: The good news about PMS,2,False,True,technology
+user_07,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,3,False,True,technology
+user_08,Michael Pawlyn: Using nature's genius in architecture,4,True,True,science_health
+user_08,Stefan Sagmeister: 7 rules for making more happiness,2,False,True,science_health
+user_08,"Frank Gehry: A master architect asks, Now what?",3,False,True,science_health
+user_08,Liz Hajek: What rivers can tell us about the earth's history,3,False,True,science_health
+user_08,"Sara Ramirez: ""Rollercoaster""",3,False,True,science_health
+user_08,Stefan Sagmeister: The power of time off,3,False,True,science_health
+user_08,Ray Kurzweil: The accelerating power of technology,2,False,True,science_health
+user_08,Johan Rockstrom: Let the environment guide our development,3,False,True,science_health
+user_08,"Ji-Hae Park: The violin, and my dark night of the soul",3,False,True,science_health
+user_08,Taylor Wilson: My radical plan for small nuclear fission reactors,3,False,True,science_health
+user_08,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,1,False,True,science_health
+user_08,"Steven Johnson: How the ""ghost map"" helped end a killer disease",4,True,True,science_health
+user_08,Candy Chang: Before I die I want to ...,3,False,True,science_health
+user_08,Alex Steffen: The route to a sustainable future,3,False,True,science_health
+user_08,"Andrew Solomon: Love, no matter what",2,False,True,science_health
+user_08,Andrew Youn: 3 reasons why we can win the fight against poverty,4,True,True,science_health
+user_08,Michael Shermer: Why people believe weird things,4,True,True,science_health
+user_08,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,5,True,True,science_health
+user_08,Seth Berkley: HIV and flu -- the vaccine strategy,4,True,True,science_health
+user_08,Robyn Stein DeLuca: The good news about PMS,4,True,True,science_health
+user_08,Jamila Raqib: The secret to effective nonviolent resistance,3,False,True,science_health
+user_08,Emiliano Salinas: A civil response to violence,4,True,True,science_health
+user_08,Mitchell Besser: Mothers helping mothers fight HIV,4,True,True,science_health
+user_08,Jonas Eliasson: How to solve traffic jams,4,True,True,science_health
+user_08,Steve Jurvetson: Model rocketry,3,False,True,science_health
+user_08,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,science_health
+user_08,Adam Savage: My obsession with objects and the stories they tell,3,False,True,science_health
+user_08,Charles Robertson: Africa's next boom,4,True,True,science_health
+user_08,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,5,True,True,science_health
+user_08,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,3,False,True,science_health
+user_08,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",3,False,True,science_health
+user_08,Philip Zimbardo: The psychology of evil,3,False,True,science_health
+user_08,David Pogue: 10 top time-saving tech tips,3,False,True,science_health
+user_08,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,4,True,True,science_health
+user_08,Garry Kasparov: Don't fear intelligent machines. Work with them,2,False,True,science_health
+user_08,Erik Hersman: Reporting crisis via texting,2,False,True,science_health
+user_08,Ray Kurzweil: A university for the coming singularity,2,False,True,science_health
+user_08,Suzanne Talhouk: Don't kill your language,2,False,True,science_health
+user_08,Benjamin Grant: What it feels like to see Earth from space,3,False,True,science_health
+user_08,Siegfried Woldhek: The search for the true face of Leonardo,2,False,True,science_health
+user_08,Rajiv Maheswaran: The math behind basketball's wildest moves,3,False,True,science_health
+user_08,Rives: The Museum of Four in the Morning,5,True,True,science_health
+user_08,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,science_health
+user_08,Nagin Cox: What time is it on Mars?,2,False,True,science_health
+user_08,Pete Alcorn: The world in 2200,3,False,True,science_health
+user_09,Suzanne Talhouk: Don't kill your language,2,False,True,education_society
+user_09,Conrad Wolfram: Teaching kids real math with computers,3,False,True,education_society
+user_09,Pete Alcorn: The world in 2200,4,True,True,education_society
+user_09,Natalie Jeremijenko: The art of the eco-mindshift,2,False,True,education_society
+user_09,Kevin Bales: How to combat modern slavery,5,True,True,education_society
+user_09,"Steven Johnson: How the ""ghost map"" helped end a killer disease",4,True,True,education_society
+user_09,Charles Robertson: Africa's next boom,5,True,True,education_society
+user_09,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,3,False,True,education_society
+user_09,Mitchell Besser: Mothers helping mothers fight HIV,4,True,True,education_society
+user_09,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,4,True,True,education_society
+user_09,"Frank Gehry: A master architect asks, Now what?",3,False,True,education_society
+user_09,Stefan Sagmeister: The power of time off,4,True,True,education_society
+user_09,Robyn Stein DeLuca: The good news about PMS,3,False,True,education_society
+user_09,Joe Lassiter: We need nuclear power to solve climate change,3,False,True,education_society
+user_09,David Pogue: 10 top time-saving tech tips,3,False,True,education_society
+user_09,Brené Brown: Listening to shame,3,False,True,education_society
+user_09,Amber Case: We are all cyborgs now,2,False,True,education_society
+user_09,Mary Bassett: Why your doctor should care about social justice,3,False,True,education_society
+user_09,Robin Morgan: 4 powerful poems about Parkinson's and growing older,3,False,True,education_society
+user_09,"Silk Road Ensemble: ""Turceasca""",2,False,True,education_society
+user_09,Dean Kamen: To invent is to give,4,True,True,education_society
+user_09,Bill Davenhall: Your health depends on where you live,4,True,True,education_society
+user_09,Marcus Byrne: The dance of the dung beetle,4,True,True,education_society
+user_09,Kees Moeliker: How a dead duck changed my life,3,False,True,education_society
+user_09,Jamila Raqib: The secret to effective nonviolent resistance,5,True,True,education_society
+user_09,Andrew Youn: 3 reasons why we can win the fight against poverty,4,True,True,education_society
+user_09,"Sara Ramirez: ""Rollercoaster""",3,False,True,education_society
+user_09,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,education_society
+user_09,Emiliano Salinas: A civil response to violence,4,True,True,education_society
+user_09,Garry Kasparov: Don't fear intelligent machines. Work with them,3,False,True,education_society
+user_09,Siegfried Woldhek: The search for the true face of Leonardo,2,False,True,education_society
+user_09,Torsten Reil: Animate characters by evolving them,3,False,True,education_society
+user_09,Andrew Stanton: The clues to a great story,4,True,True,education_society
+user_09,Ruth Chang: How to make hard choices,4,True,True,education_society
+user_09,Steven Schwaitzberg: A universal translator for surgeons,4,True,True,education_society
+user_09,Eric Whitacre: Virtual Choir Live,3,False,True,education_society
+user_09,Steve Jurvetson: Model rocketry,3,False,True,education_society
+user_09,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,3,False,True,education_society
+user_09,Stefan Sagmeister: 7 rules for making more happiness,3,False,True,education_society
+user_09,"Thomas Dolby: ""Love Is a Loaded Pistol""",2,False,True,education_society
+user_09,Seyi Oyesola: A hospital tour in Nigeria,3,False,True,education_society
+user_09,Rives: The Museum of Four in the Morning,3,False,True,education_society
+user_09,"Melvin Russell: I love being a police officer, but we need reform",3,False,True,education_society
+user_09,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,education_society
+user_09,Ray Kurzweil: A university for the coming singularity,3,False,True,education_society
+user_10,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,technology
+user_10,Joe Lassiter: We need nuclear power to solve climate change,4,True,True,technology
+user_10,Rick Smolan: The story of a girl,4,True,True,technology
+user_10,Raspyni Brothers: Juggle and jest,4,True,True,technology
+user_10,Philip Zimbardo: The psychology of evil,4,True,True,technology
+user_10,Mitchell Besser: Mothers helping mothers fight HIV,3,False,True,technology
+user_10,Steve Truglia: A leap from the edge of space,5,True,True,technology
+user_10,Garry Kasparov: Don't fear intelligent machines. Work with them,4,True,True,technology
+user_10,Karen Tse: How to stop torture,3,False,True,technology
+user_10,Liz Hajek: What rivers can tell us about the earth's history,3,False,True,technology
+user_10,Anna Mracek Dietrich: A plane you can drive,5,True,True,technology
+user_10,"Andrew Solomon: Love, no matter what",4,True,True,technology
+user_10,Michael Shermer: Why people believe weird things,3,False,True,technology
+user_10,Jinsop Lee: Design for all 5 senses,4,True,True,technology
+user_10,Charles Robertson: Africa's next boom,3,False,True,technology
+user_10,"Aziza Chaouni: How I brought a river, and my city, back to life",3,False,True,technology
+user_10,Rajiv Maheswaran: The math behind basketball's wildest moves,4,True,True,technology
+user_10,Stefan Sagmeister: 7 rules for making more happiness,4,True,True,technology
+user_10,Kees Moeliker: How a dead duck changed my life,3,False,True,technology
+user_10,Ari Wallach: 3 ways to plan for the (very) long term,4,True,True,technology
+user_10,Jae Rhim Lee: My mushroom burial suit,3,False,True,technology
+user_10,Benjamin Zander: The transformative power of classical music,3,False,True,technology
+user_10,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,technology
+user_10,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,3,False,True,technology
+user_10,Bill Davenhall: Your health depends on where you live,2,False,True,technology
+user_10,Raghava KK: What's your 200-year plan?,3,False,True,technology
+user_10,Steve Jurvetson: Model rocketry,4,True,True,technology
+user_10,Jamila Raqib: The secret to effective nonviolent resistance,3,False,True,technology
+user_10,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,technology
+user_10,Amber Case: We are all cyborgs now,4,True,True,technology
+user_10,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,2,False,True,technology
+user_10,Shukla Bose: Teaching one child at a time,3,False,True,technology
+user_10,David Pogue: 10 top time-saving tech tips,3,False,True,technology
+user_10,Kevin Bales: How to combat modern slavery,3,False,True,technology
+user_10,Eric Whitacre: Virtual Choir Live,4,True,True,technology
+user_10,"Ji-Hae Park: The violin, and my dark night of the soul",2,False,True,technology
+user_10,Jim Holt: Why does the universe exist?,3,False,True,technology
+user_10,Pete Alcorn: The world in 2200,3,False,True,technology
+user_10,Candy Chang: Before I die I want to ...,2,False,True,technology
+user_10,Seyi Oyesola: A hospital tour in Nigeria,3,False,True,technology
+user_10,"Thomas Dolby: ""Love Is a Loaded Pistol""",3,False,True,technology
+user_10,"Melvin Russell: I love being a police officer, but we need reform",3,False,True,technology
+user_10,Adam Savage: My obsession with objects and the stories they tell,3,False,True,technology
+user_10,Stefan Sagmeister: The power of time off,4,True,True,technology
+user_10,Steven Schwaitzberg: A universal translator for surgeons,4,True,True,technology
+user_11,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,5,True,True,science_health
+user_11,Tabetha Boyajian: The most mysterious star in the universe,3,False,True,science_health
+user_11,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,science_health
+user_11,Emiliano Salinas: A civil response to violence,3,False,True,science_health
+user_11,Amber Case: We are all cyborgs now,3,False,True,science_health
+user_11,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,science_health
+user_11,Jessica Green: We're covered in germs. Let's design for that.,3,False,True,science_health
+user_11,Michael Norton: How to buy happiness,4,True,True,science_health
+user_11,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,5,True,True,science_health
+user_11,Marlene Zuk: What we learn from insects' sex lives,4,True,True,science_health
+user_11,Steve Truglia: A leap from the edge of space,3,False,True,science_health
+user_11,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,3,False,True,science_health
+user_11,Seth Berkley: HIV and flu -- the vaccine strategy,4,True,True,science_health
+user_11,Stefan Sagmeister: 7 rules for making more happiness,4,True,True,science_health
+user_11,Morgana Bailey: The danger of hiding who you are,4,True,True,science_health
+user_11,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,science_health
+user_11,Andrew Stanton: The clues to a great story,4,True,True,science_health
+user_11,Kevin Bales: How to combat modern slavery,3,False,True,science_health
+user_11,Jamila Raqib: The secret to effective nonviolent resistance,4,True,True,science_health
+user_11,Michael Shermer: Why people believe weird things,4,True,True,science_health
+user_11,Pete Alcorn: The world in 2200,3,False,True,science_health
+user_11,Dean Kamen: To invent is to give,3,False,True,science_health
+user_11,Alex Steffen: The route to a sustainable future,1,False,True,science_health
+user_11,Bill Davenhall: Your health depends on where you live,4,True,True,science_health
+user_11,Erik Hersman: Reporting crisis via texting,1,False,True,science_health
+user_11,Andrew Youn: 3 reasons why we can win the fight against poverty,2,False,True,science_health
+user_11,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,science_health
+user_11,"Aziza Chaouni: How I brought a river, and my city, back to life",3,False,True,science_health
+user_11,Ray Kurzweil: A university for the coming singularity,2,False,True,science_health
+user_11,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,science_health
+user_11,James Balog: Time-lapse proof of extreme ice loss,5,True,True,science_health
+user_11,Marcus Byrne: The dance of the dung beetle,3,False,True,science_health
+user_11,Michael Pawlyn: Using nature's genius in architecture,5,True,True,science_health
+user_11,Adam Savage: My obsession with objects and the stories they tell,4,True,True,science_health
+user_11,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,3,False,True,science_health
+user_11,Stefan Sagmeister: The power of time off,4,True,True,science_health
+user_11,Jinsop Lee: Design for all 5 senses,3,False,True,science_health
+user_11,"Melvin Russell: I love being a police officer, but we need reform",2,False,True,science_health
+user_11,"Sara Ramirez: ""Rollercoaster""",3,False,True,science_health
+user_11,"Silk Road Ensemble: ""Turceasca""",3,False,True,science_health
+user_11,Mitchell Besser: Mothers helping mothers fight HIV,3,False,True,science_health
+user_11,"Steven Addis: A father-daughter bond, one photo at a time",3,False,True,science_health
+user_11,Suzanne Talhouk: Don't kill your language,3,False,True,science_health
+user_11,Nagin Cox: What time is it on Mars?,4,True,True,science_health
+user_11,Rives: The Museum of Four in the Morning,4,True,True,science_health
+user_12,Marcus Byrne: The dance of the dung beetle,3,False,True,education_society
+user_12,Rick Smolan: The story of a girl,3,False,True,education_society
+user_12,Robin Morgan: 4 powerful poems about Parkinson's and growing older,2,False,True,education_society
+user_12,Natalie Jeremijenko: The art of the eco-mindshift,2,False,True,education_society
+user_12,Dean Kamen: To invent is to give,3,False,True,education_society
+user_12,Ray Kurzweil: The accelerating power of technology,3,False,True,education_society
+user_12,Jamila Raqib: The secret to effective nonviolent resistance,4,True,True,education_society
+user_12,Marlene Zuk: What we learn from insects' sex lives,3,False,True,education_society
+user_12,"Thomas Dolby: ""Love Is a Loaded Pistol""",3,False,True,education_society
+user_12,"Steven Addis: A father-daughter bond, one photo at a time",4,True,True,education_society
+user_12,Torsten Reil: Animate characters by evolving them,3,False,True,education_society
+user_12,Tabetha Boyajian: The most mysterious star in the universe,3,False,True,education_society
+user_12,Jonas Eliasson: How to solve traffic jams,2,False,True,education_society
+user_12,Helen Fisher: The brain in love,3,False,True,education_society
+user_12,"Leah Buechley: How to ""sketch"" with electronics",2,False,True,education_society
+user_12,Rives: The Museum of Four in the Morning,3,False,True,education_society
+user_12,Jessica Green: We're covered in germs. Let's design for that.,3,False,True,education_society
+user_12,Candy Chang: Before I die I want to ...,4,True,True,education_society
+user_12,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,4,True,True,education_society
+user_12,Philip Zimbardo: The psychology of evil,4,True,True,education_society
+user_12,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,education_society
+user_12,Erik Hersman: Reporting crisis via texting,3,False,True,education_society
+user_12,Jae Rhim Lee: My mushroom burial suit,3,False,True,education_society
+user_12,Benjamin Zander: The transformative power of classical music,4,True,True,education_society
+user_12,Seyi Oyesola: A hospital tour in Nigeria,4,True,True,education_society
+user_12,Mitchell Besser: Mothers helping mothers fight HIV,3,False,True,education_society
+user_12,James Balog: Time-lapse proof of extreme ice loss,4,True,True,education_society
+user_12,Kees Moeliker: How a dead duck changed my life,3,False,True,education_society
+user_12,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,2,False,True,education_society
+user_12,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,4,True,True,education_society
+user_12,Bill Gross: The single biggest reason why startups succeed,3,False,True,education_society
+user_12,Bill Davenhall: Your health depends on where you live,3,False,True,education_society
+user_12,Nagin Cox: What time is it on Mars?,3,False,True,education_society
+user_12,Michael Norton: How to buy happiness,3,False,True,education_society
+user_12,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,education_society
+user_12,"Melvin Russell: I love being a police officer, but we need reform",4,True,True,education_society
+user_12,Garry Kasparov: Don't fear intelligent machines. Work with them,2,False,True,education_society
+user_12,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,education_society
+user_12,"Aziza Chaouni: How I brought a river, and my city, back to life",2,False,True,education_society
+user_12,Andrew Stanton: The clues to a great story,4,True,True,education_society
+user_12,Michael Shermer: Why people believe weird things,3,False,True,education_society
+user_12,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,5,True,True,education_society
+user_12,"Michele L. Sullivan: Asking for help is a strength, not a weakness",3,False,True,education_society
+user_12,Benjamin Grant: What it feels like to see Earth from space,4,True,True,education_society
+user_12,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,education_society
+user_13,Charles Robertson: Africa's next boom,3,False,True,technology
+user_13,Conrad Wolfram: Teaching kids real math with computers,4,True,True,technology
+user_13,Brené Brown: Listening to shame,3,False,True,technology
+user_13,Mark Bezos: A life lesson from a volunteer firefighter,2,False,True,technology
+user_13,Amber Case: We are all cyborgs now,4,True,True,technology
+user_13,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,2,False,True,technology
+user_13,Liz Hajek: What rivers can tell us about the earth's history,2,False,True,technology
+user_13,Michael Pawlyn: Using nature's genius in architecture,4,True,True,technology
+user_13,Torsten Reil: Animate characters by evolving them,4,True,True,technology
+user_13,Fawn Qiu: Easy DIY projects for kid engineers,5,True,True,technology
+user_13,"Thomas Dolby: ""Love Is a Loaded Pistol""",3,False,True,technology
+user_13,Andrew Youn: 3 reasons why we can win the fight against poverty,2,False,True,technology
+user_13,Suzanne Talhouk: Don't kill your language,3,False,True,technology
+user_13,Karen Tse: How to stop torture,3,False,True,technology
+user_13,Kevin Bales: How to combat modern slavery,3,False,True,technology
+user_13,Dean Kamen: To invent is to give,5,True,True,technology
+user_13,Emiliano Salinas: A civil response to violence,3,False,True,technology
+user_13,Steve Jurvetson: Model rocketry,4,True,True,technology
+user_13,Shukla Bose: Teaching one child at a time,2,False,True,technology
+user_13,Yossi Vardi: We're worried about local warming ... in your lap,3,False,True,technology
+user_13,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,technology
+user_13,Stefan Sagmeister: The power of time off,3,False,True,technology
+user_13,Ruth Chang: How to make hard choices,3,False,True,technology
+user_13,Robyn Stein DeLuca: The good news about PMS,3,False,True,technology
+user_13,Ari Wallach: 3 ways to plan for the (very) long term,4,True,True,technology
+user_13,Jinsop Lee: Design for all 5 senses,5,True,True,technology
+user_13,Robin Morgan: 4 powerful poems about Parkinson's and growing older,3,False,True,technology
+user_13,Siegfried Woldhek: The search for the true face of Leonardo,4,True,True,technology
+user_13,Jessica Green: We're covered in germs. Let's design for that.,2,False,True,technology
+user_13,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,2,False,True,technology
+user_13,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,4,True,True,technology
+user_13,Joe Lassiter: We need nuclear power to solve climate change,3,False,True,technology
+user_13,"Steven Addis: A father-daughter bond, one photo at a time",4,True,True,technology
+user_13,"Frank Gehry: A master architect asks, Now what?",4,True,True,technology
+user_13,Tim Leberecht: 3 ways to (usefully) lose control of your brand,5,True,True,technology
+user_13,"Steven Johnson: How the ""ghost map"" helped end a killer disease",3,False,True,technology
+user_13,Garry Kasparov: Don't fear intelligent machines. Work with them,4,True,True,technology
+user_13,Philip Zimbardo: The psychology of evil,3,False,True,technology
+user_13,David Pogue: 10 top time-saving tech tips,4,True,True,technology
+user_13,"Sara Ramirez: ""Rollercoaster""",4,True,True,technology
+user_13,Eric Whitacre: Virtual Choir Live,2,False,True,technology
+user_13,Jamila Raqib: The secret to effective nonviolent resistance,2,False,True,technology
+user_13,Raghava KK: What's your 200-year plan?,3,False,True,technology
+user_13,Jim Holt: Why does the universe exist?,3,False,True,technology
+user_13,Ray Kurzweil: The accelerating power of technology,4,True,True,technology
+user_14,Liz Hajek: What rivers can tell us about the earth's history,5,True,True,science_health
+user_14,Adam Savage: My obsession with objects and the stories they tell,4,True,True,science_health
+user_14,Brené Brown: Listening to shame,4,True,True,science_health
+user_14,Nagin Cox: What time is it on Mars?,3,False,True,science_health
+user_14,Benjamin Grant: What it feels like to see Earth from space,5,True,True,science_health
+user_14,"Silk Road Ensemble: ""Turceasca""",4,True,True,science_health
+user_14,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,2,False,True,science_health
+user_14,Andrew Youn: 3 reasons why we can win the fight against poverty,2,False,True,science_health
+user_14,Yossi Vardi: We're worried about local warming ... in your lap,5,True,True,science_health
+user_14,Ruth Chang: How to make hard choices,3,False,True,science_health
+user_14,Philip Zimbardo: The psychology of evil,2,False,True,science_health
+user_14,James Balog: Time-lapse proof of extreme ice loss,3,False,True,science_health
+user_14,Alex Steffen: The route to a sustainable future,3,False,True,science_health
+user_14,"Frank Gehry: A master architect asks, Now what?",3,False,True,science_health
+user_14,Taylor Wilson: My radical plan for small nuclear fission reactors,3,False,True,science_health
+user_14,Jonas Eliasson: How to solve traffic jams,3,False,True,science_health
+user_14,Steve Truglia: A leap from the edge of space,3,False,True,science_health
+user_14,Amber Case: We are all cyborgs now,2,False,True,science_health
+user_14,Jinsop Lee: Design for all 5 senses,4,True,True,science_health
+user_14,Laura Indolfi: Good news in the fight against pancreatic cancer,4,True,True,science_health
+user_14,Ari Wallach: 3 ways to plan for the (very) long term,4,True,True,science_health
+user_14,Marcus Byrne: The dance of the dung beetle,3,False,True,science_health
+user_14,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,3,False,True,science_health
+user_14,"Steven Addis: A father-daughter bond, one photo at a time",3,False,True,science_health
+user_14,"Steven Johnson: How the ""ghost map"" helped end a killer disease",2,False,True,science_health
+user_14,Fawn Qiu: Easy DIY projects for kid engineers,2,False,True,science_health
+user_14,Suzanne Talhouk: Don't kill your language,3,False,True,science_health
+user_14,"Michele L. Sullivan: Asking for help is a strength, not a weakness",2,False,True,science_health
+user_14,Charles Robertson: Africa's next boom,2,False,True,science_health
+user_14,Bill Davenhall: Your health depends on where you live,5,True,True,science_health
+user_14,Robyn Stein DeLuca: The good news about PMS,4,True,True,science_health
+user_14,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,4,True,True,science_health
+user_14,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,science_health
+user_14,Benjamin Zander: The transformative power of classical music,4,True,True,science_health
+user_14,Siegfried Woldhek: The search for the true face of Leonardo,2,False,True,science_health
+user_14,Seyi Oyesola: A hospital tour in Nigeria,3,False,True,science_health
+user_14,Uri Hasson: This is your brain on communication,4,True,True,science_health
+user_14,Steve Jurvetson: Model rocketry,3,False,True,science_health
+user_14,Candy Chang: Before I die I want to ...,3,False,True,science_health
+user_14,Seth Berkley: HIV and flu -- the vaccine strategy,4,True,True,science_health
+user_14,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",3,False,True,science_health
+user_14,Morgana Bailey: The danger of hiding who you are,2,False,True,science_health
+user_14,"Andrew Solomon: Love, no matter what",2,False,True,science_health
+user_14,Garry Kasparov: Don't fear intelligent machines. Work with them,3,False,True,science_health
+user_14,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,science_health
+user_15,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,4,True,True,education_society
+user_15,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,2,False,True,education_society
+user_15,Rainer Strack: The workforce crisis of 2030 -- and how to start solving it now,2,False,True,education_society
+user_15,Tim Leberecht: 3 ways to (usefully) lose control of your brand,4,True,True,education_society
+user_15,Natalie Jeremijenko: The art of the eco-mindshift,3,False,True,education_society
+user_15,Anders Fjellberg: Two nameless bodies washed up on the beach. Here are their stories,4,True,True,education_society
+user_15,Stefan Sagmeister: 7 rules for making more happiness,2,False,True,education_society
+user_15,Jae Rhim Lee: My mushroom burial suit,4,True,True,education_society
+user_15,David Pogue: 10 top time-saving tech tips,4,True,True,education_society
+user_15,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,4,True,True,education_society
+user_15,Dean Kamen: To invent is to give,3,False,True,education_society
+user_15,"Silk Road Ensemble: ""Turceasca""",3,False,True,education_society
+user_15,Mary Bassett: Why your doctor should care about social justice,3,False,True,education_society
+user_15,Steve Jurvetson: Model rocketry,2,False,True,education_society
+user_15,Robyn Stein DeLuca: The good news about PMS,3,False,True,education_society
+user_15,Meaghan Ramsey: Why thinking you're ugly is bad for you,4,True,True,education_society
+user_15,Rick Smolan: The story of a girl,3,False,True,education_society
+user_15,James Balog: Time-lapse proof of extreme ice loss,3,False,True,education_society
+user_15,Bill Gross: The single biggest reason why startups succeed,2,False,True,education_society
+user_15,"Thomas Dolby: ""Love Is a Loaded Pistol""",2,False,True,education_society
+user_15,"Melvin Russell: I love being a police officer, but we need reform",4,True,True,education_society
+user_15,Robin Morgan: 4 powerful poems about Parkinson's and growing older,2,False,True,education_society
+user_15,Jamila Raqib: The secret to effective nonviolent resistance,4,True,True,education_society
+user_15,Benjamin Zander: The transformative power of classical music,4,True,True,education_society
+user_15,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,4,True,True,education_society
+user_15,Laura Indolfi: Good news in the fight against pancreatic cancer,1,False,True,education_society
+user_15,"Andrew Solomon: Love, no matter what",3,False,True,education_society
+user_15,"Steven Addis: A father-daughter bond, one photo at a time",5,True,True,education_society
+user_15,Michael Pawlyn: Using nature's genius in architecture,1,False,True,education_society
+user_15,"Frank Gehry: A master architect asks, Now what?",3,False,True,education_society
+user_15,Torsten Reil: Animate characters by evolving them,2,False,True,education_society
+user_15,Jim Holt: Why does the universe exist?,4,True,True,education_society
+user_15,Andrew Stanton: The clues to a great story,3,False,True,education_society
+user_15,Shukla Bose: Teaching one child at a time,4,True,True,education_society
+user_15,Steven Schwaitzberg: A universal translator for surgeons,3,False,True,education_society
+user_15,Conrad Wolfram: Teaching kids real math with computers,4,True,True,education_society
+user_15,Candy Chang: Before I die I want to ...,4,True,True,education_society
+user_15,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,education_society
+user_15,Michael Shermer: Why people believe weird things,2,False,True,education_society
+user_15,Eric Whitacre: Virtual Choir Live,4,True,True,education_society
+user_15,Steve Truglia: A leap from the edge of space,3,False,True,education_society
+user_15,Andrew Youn: 3 reasons why we can win the fight against poverty,3,False,True,education_society
+user_15,Joe Lassiter: We need nuclear power to solve climate change,3,False,True,education_society
+user_15,Pete Alcorn: The world in 2200,3,False,True,education_society
+user_15,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,4,True,True,education_society
+user_16,Eric Whitacre: Virtual Choir Live,5,True,True,technology
+user_16,"Melvin Russell: I love being a police officer, but we need reform",4,True,True,technology
+user_16,Stefan Sagmeister: The power of time off,3,False,True,technology
+user_16,Steve Truglia: A leap from the edge of space,4,True,True,technology
+user_16,Alex Steffen: The route to a sustainable future,4,True,True,technology
+user_16,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,2,False,True,technology
+user_16,Morgana Bailey: The danger of hiding who you are,3,False,True,technology
+user_16,"Andrew Solomon: Love, no matter what",3,False,True,technology
+user_16,Meaghan Ramsey: Why thinking you're ugly is bad for you,3,False,True,technology
+user_16,Steven Schwaitzberg: A universal translator for surgeons,4,True,True,technology
+user_16,Erik Hersman: Reporting crisis via texting,4,True,True,technology
+user_16,Fawn Qiu: Easy DIY projects for kid engineers,5,True,True,technology
+user_16,Siegfried Woldhek: The search for the true face of Leonardo,5,True,True,technology
+user_16,Kevin Bales: How to combat modern slavery,1,False,True,technology
+user_16,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,3,False,True,technology
+user_16,Philip Zimbardo: The psychology of evil,3,False,True,technology
+user_16,Benjamin Zander: The transformative power of classical music,2,False,True,technology
+user_16,Ray Kurzweil: The accelerating power of technology,4,True,True,technology
+user_16,Benjamin Grant: What it feels like to see Earth from space,4,True,True,technology
+user_16,Dean Kamen: To invent is to give,3,False,True,technology
+user_16,Jessica Green: We're covered in germs. Let's design for that.,4,True,True,technology
+user_16,"Steven Addis: A father-daughter bond, one photo at a time",2,False,True,technology
+user_16,Laura Indolfi: Good news in the fight against pancreatic cancer,3,False,True,technology
+user_16,Marcus Byrne: The dance of the dung beetle,4,True,True,technology
+user_16,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,3,False,True,technology
+user_16,Mary Bassett: Why your doctor should care about social justice,3,False,True,technology
+user_16,Jonas Eliasson: How to solve traffic jams,2,False,True,technology
+user_16,Tim Leberecht: 3 ways to (usefully) lose control of your brand,5,True,True,technology
+user_16,Raspyni Brothers: Juggle and jest,4,True,True,technology
+user_16,Mark Bezos: A life lesson from a volunteer firefighter,3,False,True,technology
+user_16,Rives: The Museum of Four in the Morning,3,False,True,technology
+user_16,"Aziza Chaouni: How I brought a river, and my city, back to life",3,False,True,technology
+user_16,Emiliano Salinas: A civil response to violence,4,True,True,technology
+user_16,Pete Alcorn: The world in 2200,3,False,True,technology
+user_16,"Aicha el-Wafi + Phyllis Rodriguez: The mothers who found forgiveness, friendship",3,False,True,technology
+user_16,Karen Tse: How to stop torture,3,False,True,technology
+user_16,Andrew Stanton: The clues to a great story,3,False,True,technology
+user_16,Steve Jurvetson: Model rocketry,4,True,True,technology
+user_16,Adam Savage: My obsession with objects and the stories they tell,3,False,True,technology
+user_16,Seyi Oyesola: A hospital tour in Nigeria,4,True,True,technology
+user_16,Steve Ramirez and Xu Liu: A mouse. A laser beam. A manipulated memory.,3,False,True,technology
+user_16,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,3,False,True,technology
+user_16,Robyn Stein DeLuca: The good news about PMS,3,False,True,technology
+user_16,Conrad Wolfram: Teaching kids real math with computers,5,True,True,technology
+user_16,Nagin Cox: What time is it on Mars?,3,False,True,technology
+user_17,Tasso Azevedo: Hopeful lessons from the battle to save rainforests,5,True,True,science_health
+user_17,Jessica Green: We're covered in germs. Let's design for that.,3,False,True,science_health
+user_17,"Sara Ramirez: ""Rollercoaster""",4,True,True,science_health
+user_17,Stefan Sagmeister: 7 rules for making more happiness,3,False,True,science_health
+user_17,Suzanne Talhouk: Don't kill your language,3,False,True,science_health
+user_17,Taylor Wilson: My radical plan for small nuclear fission reactors,4,True,True,science_health
+user_17,Michel Laberge: How synchronized hammer strikes could generate nuclear fusion,4,True,True,science_health
+user_17,Benjamin Grant: What it feels like to see Earth from space,4,True,True,science_health
+user_17,Raghava KK: What's your 200-year plan?,2,False,True,science_health
+user_17,Jinsop Lee: Design for all 5 senses,2,False,True,science_health
+user_17,Robyn Stein DeLuca: The good news about PMS,3,False,True,science_health
+user_17,Rives: The Museum of Four in the Morning,3,False,True,science_health
+user_17,Jamila Raqib: The secret to effective nonviolent resistance,3,False,True,science_health
+user_17,Amber Case: We are all cyborgs now,4,True,True,science_health
+user_17,Helen Fisher: The brain in love,4,True,True,science_health
+user_17,Torsten Reil: Animate characters by evolving them,2,False,True,science_health
+user_17,Siegfried Woldhek: The search for the true face of Leonardo,3,False,True,science_health
+user_17,Michael Norton: How to buy happiness,3,False,True,science_health
+user_17,Uri Hasson: This is your brain on communication,5,True,True,science_health
+user_17,Adam Savage: My obsession with objects and the stories they tell,3,False,True,science_health
+user_17,Ray Kurzweil: The accelerating power of technology,3,False,True,science_health
+user_17,Michael Pawlyn: Using nature's genius in architecture,5,True,True,science_health
+user_17,Seyi Oyesola: A hospital tour in Nigeria,3,False,True,science_health
+user_17,Jim Holt: Why does the universe exist?,4,True,True,science_health
+user_17,Emiliano Salinas: A civil response to violence,3,False,True,science_health
+user_17,"Michele L. Sullivan: Asking for help is a strength, not a weakness",3,False,True,science_health
+user_17,Ari Wallach: 3 ways to plan for the (very) long term,4,True,True,science_health
+user_17,Marcus Byrne: The dance of the dung beetle,3,False,True,science_health
+user_17,Ameera Harouda: Why I put myself in danger to tell the stories of Gaza,4,True,True,science_health
+user_17,Philip Zimbardo: The psychology of evil,2,False,True,science_health
+user_17,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,science_health
+user_17,Anna Mracek Dietrich: A plane you can drive,3,False,True,science_health
+user_17,Natalie Jeremijenko: The art of the eco-mindshift,3,False,True,science_health
+user_17,David Pogue: 10 top time-saving tech tips,3,False,True,science_health
+user_17,Brené Brown: Listening to shame,3,False,True,science_health
+user_17,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,2,False,True,science_health
+user_17,Joe Lassiter: We need nuclear power to solve climate change,4,True,True,science_health
+user_17,Steve Truglia: A leap from the edge of space,2,False,True,science_health
+user_17,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,science_health
+user_17,Ray Kurzweil: A university for the coming singularity,2,False,True,science_health
+user_17,"Aziza Chaouni: How I brought a river, and my city, back to life",3,False,True,science_health
+user_17,Johan Rockstrom: Let the environment guide our development,3,False,True,science_health
+user_17,Mary Bassett: Why your doctor should care about social justice,3,False,True,science_health
+user_17,Rick Smolan: The story of a girl,3,False,True,science_health
+user_17,"Andrew Solomon: Love, no matter what",4,True,True,science_health
+user_18,Kees Moeliker: How a dead duck changed my life,2,False,True,education_society
+user_18,Bill Davenhall: Your health depends on where you live,3,False,True,education_society
+user_18,"Leah Buechley: How to ""sketch"" with electronics",3,False,True,education_society
+user_18,Shukla Bose: Teaching one child at a time,3,False,True,education_society
+user_18,Mikko Hypponen: How the NSA betrayed the world's trust -- time to act,3,False,True,education_society
+user_18,Sonia Shah: 3 reasons we still haven’t gotten rid of malaria,3,False,True,education_society
+user_18,Morgana Bailey: The danger of hiding who you are,4,True,True,education_society
+user_18,"Frank Gehry: A master architect asks, Now what?",2,False,True,education_society
+user_18,Helen Fisher: The brain in love,3,False,True,education_society
+user_18,Tim Leberecht: 3 ways to (usefully) lose control of your brand,3,False,True,education_society
+user_18,Seth Berkley: HIV and flu -- the vaccine strategy,4,True,True,education_society
+user_18,Amber Case: We are all cyborgs now,4,True,True,education_society
+user_18,Garry Kasparov: Don't fear intelligent machines. Work with them,3,False,True,education_society
+user_18,Mitchell Besser: Mothers helping mothers fight HIV,3,False,True,education_society
+user_18,Torsten Reil: Animate characters by evolving them,3,False,True,education_society
+user_18,Andrew Youn: 3 reasons why we can win the fight against poverty,3,False,True,education_society
+user_18,Karen Tse: How to stop torture,3,False,True,education_society
+user_18,"Sara Ramirez: ""Rollercoaster""",2,False,True,education_society
+user_18,"Ji-Hae Park: The violin, and my dark night of the soul",3,False,True,education_society
+user_18,David Pogue: 10 top time-saving tech tips,2,False,True,education_society
+user_18,Suzanne Talhouk: Don't kill your language,3,False,True,education_society
+user_18,Jessa Gamble: Our natural sleep cycle is nothing like what we do now,4,True,True,education_society
+user_18,Ray Kurzweil: The accelerating power of technology,2,False,True,education_society
+user_18,Ray Kurzweil: A university for the coming singularity,3,False,True,education_society
+user_18,Charles Robertson: Africa's next boom,4,True,True,education_society
+user_18,Jinsop Lee: Design for all 5 senses,3,False,True,education_society
+user_18,Stefan Sagmeister: 7 rules for making more happiness,3,False,True,education_society
+user_18,Jae Rhim Lee: My mushroom burial suit,3,False,True,education_society
+user_18,Emiliano Salinas: A civil response to violence,3,False,True,education_society
+user_18,Jessica Green: We're covered in germs. Let's design for that.,3,False,True,education_society
+user_18,Alex Steffen: The route to a sustainable future,4,True,True,education_society
+user_18,Mark Bezos: A life lesson from a volunteer firefighter,2,False,True,education_society
+user_18,Robyn Stein DeLuca: The good news about PMS,3,False,True,education_society
+user_18,Steven Schwaitzberg: A universal translator for surgeons,4,True,True,education_society
+user_18,Kevin Bales: How to combat modern slavery,4,True,True,education_society
+user_18,Ari Wallach: 3 ways to plan for the (very) long term,3,False,True,education_society
+user_18,Raspyni Brothers: Juggle and jest,3,False,True,education_society
+user_18,Andrew Stanton: The clues to a great story,4,True,True,education_society
+user_18,"Andrew Solomon: Love, no matter what",3,False,True,education_society
+user_18,Dean Kamen: To invent is to give,1,False,True,education_society
+user_18,Mary Bassett: Why your doctor should care about social justice,4,True,True,education_society
+user_18,Steve Truglia: A leap from the edge of space,2,False,True,education_society
+user_18,"Aziza Chaouni: How I brought a river, and my city, back to life",3,False,True,education_society
+user_18,Gustavo Dudamel and the Teresa Carreño Youth Orchestra: El Sistema's top youth orchestra,3,False,True,education_society
+user_18,Yossi Vardi: We're worried about local warming ... in your lap,2,False,True,education_society
