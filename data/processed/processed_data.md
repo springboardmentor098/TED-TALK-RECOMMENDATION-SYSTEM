@@ -32,12 +32,12 @@ This document is the single source of truth for:
 |------|----------|-------|--------|---------|
 | 1 | `01_data_exploration.ipynb` | `data/raw/ted_talks_en.csv` | `data/raw/ted_talks_selected.csv` | 02, 03 |
 | 2 | `02_eda_data_quality.ipynb` | `data/raw/ted_talks_selected.csv` | *None* (analysis + inline charts) | Findings guide 03 |
-| 3 | `03_data_cleaning_preprocessing.ipynb` | `data/raw/ted_talks_selected.csv` | `ted_talks_cleaned_all.csv`, `ted_talks_cleaned.csv` | 04, 05, 06, future 07/08, Streamlit |
+| 3 | `03_data_cleaning_preprocessing.ipynb` | `data/raw/ted_talks_selected.csv` | `ted_talks_cleaned_all.csv`, `ted_talks_cleaned.csv` | 04, 05, 06, 07, 08, Streamlit |
 | 4 | `04_tfidf_vectorization.ipynb` | `ted_talks_cleaned.csv` | `tfidf_matrix.npz`, `cosine_sim.npy`, `tfidf_vectorizer.joblib` | 05 (baseline), 06 (comparison) |
 | 5 | `05_content_based_recommendation.ipynb` | `ted_talks_cleaned.csv` + Task 4 artifacts | *None* (`recommend_talks()` lives in the notebook) | 06, future module/app |
 | 6 | `06_feature_selection_evaluation.ipynb` | `ted_talks_cleaned.csv` | `tfidf_matrix_exp3.npz`, `cosine_sim_exp3.npy`, `tfidf_vectorizer_exp3.joblib`, `reports/task_06_observations.md` | **Final recommender**, future hybrid/Streamlit, submission/review |
-| 7 | `07_user_interaction_data.ipynb` *(planned)* | `ted_talks_cleaned.csv` | `data/interaction/user_interactions.csv` | 08 |
-| 8 | `08_collaborative_filtering.ipynb` *(planned)* | `user_interactions.csv` + `ted_talks_cleaned.csv` | CF model artifacts | Future hybrid model |
+| 7 | `07_user_interaction_data.ipynb.ipynb` | `ted_talks_cleaned.csv` | `data/interaction/user_interactions.csv` | 08, future hybrid model |
+| 8 | `08_collaborative_filtering.ipynb` | `user_interactions.csv` + `ted_talks_cleaned.csv` | *None* (`recommend_for_user()` lives in the notebook) | Future hybrid model |
 
 ### What the dataset looks like after each step
 
@@ -49,6 +49,8 @@ This document is the single source of truth for:
 | 04 | 4,005 | 16 | **Unchanged** — baseline TF-IDF + similarity artifacts added |
 | 05 | 4,005 | 16 | **Unchanged** — reusable recommendation function added |
 | 06 | 4,005 | 16 | **Unchanged** — final Exp3 artifacts + Task 6 report added, Exp3 selected |
+| 07 | 4,005 | 16 | **Unchanged** — 50 × 200 simulated interaction file created separately |
+| 08 | 4,005 | 16 | **Unchanged** — CF model lives in the notebook; no data files written |
 
 ---
 
@@ -74,8 +76,8 @@ data/
 │   ├── cosine_sim.npy                # 128 MB - baseline dense similarity (4005 × 4005)
 │   └── tfidf_vectorizer.joblib       # 10 MB  - baseline fitted vectorizer
 │
-└── interaction/                      # planned (Task 7)
-    └── user_interactions.csv
+└── interaction/
+    └── user_interactions.csv         # 50 users × 200 talks, 1,153 simulated ratings (Task 7)
 
 reports/                              # committed (not gitignored)
 ├── task_01_observations.md           # one report per notebook (01–06)
