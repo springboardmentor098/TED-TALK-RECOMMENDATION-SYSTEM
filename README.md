@@ -25,6 +25,7 @@
 | **Recommendation API** | `recommend_talks(title, top_n=5)` |
 | **Language** | English |
 | **Pipeline Progress** | Tasks 1–6 complete · Task 7 next |
+| **Task 6 Report** | `reports/task_06_observations.md` · `.pdf` |
 
 ### 🎬 Demo Preview
 
@@ -55,6 +56,7 @@ graph LR
     E --> F[🎯 Recommendation Engine<br/>05_content_based_recommendation]
     F --> G[🧪 Feature Selection<br/>06_feature_selection_evaluation]
     G --> H[👥 User Interaction Data<br/>07 — planned]
+    G --> R[📄 Task 6 Report<br/>Markdown + PDF]
     H -.-> I[🤝 Collaborative Filtering<br/>08 — planned]
     I -.-> J[🚀 Hybrid Model + Streamlit]
 
@@ -68,6 +70,7 @@ graph LR
     style H fill:#f1f8e9,stroke:#558b2f
     style I fill:#f1f8e9,stroke:#558b2f
     style J fill:#eceff1,stroke:#455a64
+    style R fill:#fff8e1,stroke:#f9a825
 ```
 
 ---
@@ -82,9 +85,10 @@ graph LR
 | **Visualization** | `matplotlib`, `seaborn` |
 | **ML/NLP** | `scikit-learn` (TF-IDF, cosine similarity) |
 | **Serialization** | `joblib`, `scipy.sparse` (installed with scikit-learn) |
+| **Reporting** | `markdown-pdf` (Python package — Task 6 PDF export) |
 | **Environment** | `jupyter`, Python 3.11+ |
 
-### Pipeline Artifacts
+### Pipeline Artifacts & Reports
 
 ```text
 data/
@@ -103,9 +107,13 @@ data/
     ├── cosine_sim.npy                # 128 MB - Baseline dense similarity
     ├── tfidf_vectorizer.joblib       # 10 MB  - Baseline fitted vectorizer
     └── processed_data.md             # Regeneration notes (committed)
+
+reports/
+├── task_06_observations.md           # 4.6 KB - Task 6 written report (committed)
+└── task_06_observations.pdf          # 254 KB - PDF export (committed)
 ```
 
-> `data/processed/` is gitignored because the files are large. `processed_data.md` documents how to rebuild every artifact.
+> `data/processed/` is gitignored because the files are large. `processed_data.md` documents how to rebuild every artifact. The `reports/` files are small and are committed.
 
 ---
 
@@ -215,6 +223,24 @@ Why not the metric winner (Exp2)?
 - **Exp1 is too narrow** — near-duplicate talks from the same series.
 - **Deployment-friendly** — Exp3 is ~15× smaller than Exp4 and builds in under a second.
 
+**Report output** (written by the final cells of the notebook):
+
+| File | Description |
+|------|-------------|
+| `reports/task_06_observations.md` | Written report: setup, comparison tables, evaluation, justification |
+| `reports/task_06_observations.pdf` | PDF export via `markdown-pdf` |
+
+The Markdown report is written first; the notebook then converts it to PDF with the `markdown-pdf` package (`%pip install markdown-pdf`). No external `pandoc` or LaTeX installation is needed.
+
+---
+
+## 📄 Task 6 Report
+
+- [Markdown report](reports/task_06_observations.md)
+- [PDF report](reports/task_06_observations.pdf)
+
+The report summarises the four experiments, the Jaccard and cosine comparison tables, the qualitative findings, and the final Exp3 justification — matching the analysis in `06_feature_selection_evaluation.ipynb`.
+
 ---
 
 ## 📈 Key Findings
@@ -291,6 +317,8 @@ jupyter nbconvert --execute notebooks/06_feature_selection_evaluation.ipynb --to
 
 > Notebooks 01 and 02 need `data/raw/ted_talks_en.csv`. Notebook 03 can start from the checked-in `data/raw/ted_talks_selected.csv`; notebooks 04–06 depend on the `data/processed/ted_talks_cleaned.csv` it produces. If you only have the raw Kaggle file, run notebook 01 first.
 
+> **Report export:** notebook 06 writes `reports/task_06_observations.md` and then converts it to PDF with the `markdown-pdf` package (`%pip install markdown-pdf`). No external `pandoc` or LaTeX installation is required.
+
 ### Use the Final (Exp3) Recommender
 
 ```python
@@ -365,6 +393,9 @@ ted-talks-recommender/
 │       ├── cosine_sim.npy
 │       ├── tfidf_vectorizer.joblib
 │       └── processed_data.md
+├── 📄 reports/
+│   ├── task_06_observations.md
+│   └── task_06_observations.pdf
 ├── ⚙️ .venv/                       # not committed
 ├── 📋 requirements.txt
 ├── 🚫 .gitignore
@@ -385,7 +416,7 @@ ted-talks-recommender/
 | 3 | `03_data_cleaning_preprocessing.ipynb` | Cleaned dataset + combined text fields |
 | 4 | `04_tfidf_vectorization.ipynb` | 366,288-term baseline + cosine similarity |
 | 5 | `05_content_based_recommendation.ipynb` | Reusable `recommend_talks(title, top_n=5)` |
-| 6 | `06_feature_selection_evaluation.ipynb` | Exp1–Exp4 comparison → **Exp3 selected** |
+| 6 | `06_feature_selection_evaluation.ipynb` | Exp1–Exp4 comparison → **Exp3 selected**; report + PDF in `reports/` |
 
 ### 🎯 Task 7: User Preferences & Interaction Data (Next)
 - [ ] Design a **simulated** user–talk interaction dataset (`user_id`, `talk_id`, `rating`, `liked`, `watched_at`)

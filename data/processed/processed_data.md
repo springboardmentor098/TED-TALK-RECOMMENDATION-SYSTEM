@@ -1,6 +1,6 @@
 # Processed Data Documentation
 
-This folder holds the datasets and model artifacts produced by the notebook pipeline. Most files are too large for GitHub, so they are **gitignored and must be regenerated** by running the notebooks in order.
+This folder holds the datasets and model artifacts produced by the notebook pipeline. Most files are too large for GitHub, so they are **gitignored and must be regenerated** by running the notebooks in order. The written reports live in `reports/` at the project root and are committed.
 
 This document is the single source of truth for:
 
@@ -20,6 +20,7 @@ This document is the single source of truth for:
 | **Final TF-IDF matrix** | `data/processed/tfidf_matrix_exp3.npz` | Notebook 06 |
 | **Final fitted vectorizer** | `data/processed/tfidf_vectorizer_exp3.joblib` | Notebook 06 |
 | **Audit copy (original + cleaned text)** | `data/processed/ted_talks_cleaned_all.csv` | Notebook 03 |
+| **Task 6 written report** | `reports/task_06_observations.md` + `.pdf` | Notebook 06 |
 
 > **Use the `*_exp3` artifacts for recommendations.** The non-suffixed `tfidf_matrix.npz` / `cosine_sim.npy` / `tfidf_vectorizer.joblib` are the Task 4 **baseline** (full transcript text) and are kept only so the Task 4 experiment and the Task 6 comparison can be reproduced.
 
@@ -34,7 +35,7 @@ This document is the single source of truth for:
 | 3 | `03_data_cleaning_preprocessing.ipynb` | `data/raw/ted_talks_selected.csv` | `ted_talks_cleaned_all.csv`, `ted_talks_cleaned.csv` | 04, 05, 06, future 07/08, Streamlit |
 | 4 | `04_tfidf_vectorization.ipynb` | `ted_talks_cleaned.csv` | `tfidf_matrix.npz`, `cosine_sim.npy`, `tfidf_vectorizer.joblib` | 05 (baseline), 06 (comparison) |
 | 5 | `05_content_based_recommendation.ipynb` | `ted_talks_cleaned.csv` + Task 4 artifacts | *None* (`recommend_talks()` lives in the notebook) | 06, future module/app |
-| 6 | `06_feature_selection_evaluation.ipynb` | `ted_talks_cleaned.csv` | `tfidf_matrix_exp3.npz`, `cosine_sim_exp3.npy`, `tfidf_vectorizer_exp3.joblib` | **Final recommender**, future hybrid/Streamlit |
+| 6 | `06_feature_selection_evaluation.ipynb` | `ted_talks_cleaned.csv` | `tfidf_matrix_exp3.npz`, `cosine_sim_exp3.npy`, `tfidf_vectorizer_exp3.joblib`, `reports/task_06_observations.{md,pdf}` | **Final recommender**, future hybrid/Streamlit, submission/review |
 | 7 | `07_user_interaction_data.ipynb` *(planned)* | `ted_talks_cleaned.csv` | `data/interaction/user_interactions.csv` | 08 |
 | 8 | `08_collaborative_filtering.ipynb` *(planned)* | `user_interactions.csv` + `ted_talks_cleaned.csv` | CF model artifacts | Future hybrid model |
 
@@ -47,7 +48,7 @@ This document is the single source of truth for:
 | 03 | 4,005 | 20 (audit) / 16 (final) | Cleaned text, flags, combined text fields |
 | 04 | 4,005 | 16 | **Unchanged** — baseline TF-IDF + similarity artifacts added |
 | 05 | 4,005 | 16 | **Unchanged** — reusable recommendation function added |
-| 06 | 4,005 | 16 | **Unchanged** — final Exp3 artifacts added, Exp3 selected |
+| 06 | 4,005 | 16 | **Unchanged** — final Exp3 artifacts + Task 6 report added, Exp3 selected |
 
 ---
 
@@ -75,6 +76,10 @@ data/
 │
 └── interaction/                      # planned (Task 7)
     └── user_interactions.csv
+
+reports/                              # committed (not gitignored)
+├── task_06_observations.md           # 4.6 KB - Task 6 written report
+└── task_06_observations.pdf          # 254 KB - PDF export
 ```
 
 ---
@@ -324,13 +329,17 @@ Evaluation:
 
 **Selected: Exp3 — Title + Description + Tags.**
 
-### Outputs (Final Recommender Artifacts)
+### Outputs (Final Recommender Artifacts + Report)
 
 | File | Shape | Size | Description |
 |------|------:|-----:|-------------|
 | `data/processed/tfidf_matrix_exp3.npz` | 4,005 × 23,643 | 1.6 MB | Sparse TF-IDF, 200,047 non-zeros |
 | `data/processed/cosine_sim_exp3.npy` | 4,005 × 4,005 | 128 MB | Dense `float64` similarity, diagonal = 0 |
 | `data/processed/tfidf_vectorizer_exp3.joblib` | — | 0.6 MB | Fitted Exp3 vectorizer |
+| `reports/task_06_observations.md` | — | 4.6 KB | Written report: setup, comparison tables, evaluation, justification |
+| `reports/task_06_observations.pdf` | — | 254 KB | PDF export via `markdown-pdf` |
+
+> The Markdown report is written first; the PDF is then generated with the `markdown-pdf` package (`%pip install markdown-pdf`). The `reports/` files are committed, unlike the large `data/processed/` artifacts.
 
 ### Final processed data after this notebook
 
@@ -340,6 +349,7 @@ Evaluation:
 - Final feature set: **title + description + tags**
 - Final matrix: 4,005 × 23,643 (200,047 non-zeros)
 - Final similarity: 4,005 × 4,005, self-similarity = 0
+- Task 6 report: `reports/task_06_observations.md` + `.pdf`
 - Exp3 is ~15× smaller than the Exp4 vocabulary and builds in under a second
 
 ### Where it is used
@@ -347,6 +357,7 @@ Evaluation:
 - **Final content-based recommender** — load `cosine_sim_exp3.npy` + `ted_talks_cleaned.csv`.
 - **Future hybrid model** — content-based component alongside collaborative filtering.
 - **Future Streamlit app** — fast, deployable similarity lookups.
+- **Submission/review** — `reports/task_06_observations.md` and `.pdf` document the experiment, metrics, and final choice.
 
 ---
 
@@ -358,6 +369,7 @@ Evaluation:
 | Vectorize a **new** query/title | `tfidf_vectorizer_exp3.joblib` |
 | Inspect raw vs cleaned text | `ted_talks_cleaned_all.csv` |
 | Reproduce the **Task 4 baseline** | `tfidf_matrix.npz`, `cosine_sim.npy`, `tfidf_vectorizer.joblib` |
+| Read or submit the **Task 6 report** | `reports/task_06_observations.md`, `reports/task_06_observations.pdf` |
 | Rebuild everything from scratch | Run notebooks 01 → 06 in order |
 
 ---
@@ -418,6 +430,16 @@ If `data/raw/ted_talks_selected.csv` is already present, you can skip notebook 0
 
 Notebook 06 only needs `ted_talks_cleaned.csv`; it does not depend on the Task 4 baseline artifacts.
 
+### 4. PDF report
+
+Notebook 06 writes `reports/task_06_observations.md` and then generates the PDF with `markdown-pdf`, which the notebook installs itself:
+
+```text
+%pip install markdown-pdf
+```
+
+No external `pandoc` or LaTeX installation is required. Re-running the final notebook cells regenerates both report files.
+
 ---
 
 ## 🗂️ Planned Data (Tasks 7–8)
@@ -440,5 +462,6 @@ Notebook 06 only needs `ted_talks_cleaned.csv`; it does not depend on the Task 4
 - Raw data in `data/raw/` is small enough to commit.
 - File sizes are approximate and use decimal MB.
 - Notebook 01 writes to `data/raw/`; notebook 02 writes no files; notebooks 03–06 write to `data/processed/`.
+- Notebook 06 also writes the Task 6 report to `reports/`, which **is** committed (4.6 KB Markdown + 254 KB PDF).
 - `cosine_sim*.npy` files are dense `float64` (128 MB each). If disk size becomes an issue, they can be recomputed on demand from the corresponding `tfidf_matrix*.npz`.
 - The Exp3 artifacts are the **final** ones. The non-suffixed artifacts are the Task 4 baseline and are intentionally retained for comparison.
