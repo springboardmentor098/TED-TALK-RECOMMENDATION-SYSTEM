@@ -11,6 +11,9 @@ venv/
 .env.*
 !.env.example
 
-# Large Processed data
-data/processed
-!processed_data.md
+# Large processed data (data/processed/processed_data.md is committed)
+data/processed/*
+!data/processed/processed_data.md
+
+# Original Tasks
+TED talk tasks.docx
