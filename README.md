@@ -295,3 +295,25 @@ Although including transcripts increases the amount of textual data and does not
 Therefore, Experiment 4 was considered the most suitable feature combination among the four approaches evaluated and will be used as the preferred feature set for further development of the recommendation system.
 
 **Overall Learning:** The experiments demonstrated that feature selection plays an important role in content-based recommendation systems. Combining different textual features can improve the representation of content and help generate more contextually relevant recommendations than relying on titles alone.
+
+## Task 7: Understanding User Preferences and Preparing Interaction Data 
+
+1. A simulated user interaction dataset was created containing 20 users and 280 interactions across 50 TED Talks.
+
+2. Each user has 14 recorded TED Talk interactions, including ratings, likes, watch status, and bookmarks.
+
+3. The user-item matrix was successfully generated with a shape of 20 × 50.
+
+4. Out of 1,000 possible user-talk combinations, 280 contain ratings, resulting in a matrix density of 28%.
+
+5. The remaining 720 entries represent missing ratings, indicating that users have not rated those TED Talks.
+
+6. The rating analysis identified TED Talks with comparatively higher average ratings and greater interaction counts.
+
+7. Every user has rated 14 TED Talks, while their average ratings differ according to their simulated preferences.
+
+8. The interaction patterns provide a foundation for understanding Collaborative Filtering, including user-based and item-based recommendation approaches.
+
+**Conclusion:** Task 7 successfully demonstrates how user interaction data can be collected, analyzed, and transformed into a user-item matrix. This data can be used as the foundation for implementing Collaborative Filtering in the recommendation system.
+
+**Dataset limitation:** All user profiles, interactions, and ratings are simulated. They are intended for learning and experimentation rather than representing real-world TED user behavior.
