@@ -1,0 +1,44 @@
+user_id,talk_id,title,rating,like_status,watched,saved
+USER_001,TALK_001,Al Gore sobre cómo evitar la crisis climática,2,Dislike,True,True
+USER_001,TALK_005,Hans Rosling nos muestra las mejores estadísticas que hayamos visto,5,Like,True,True
+USER_001,TALK_004,Ken Robinson dice que las escuelas matan la creatividad,5,Like,True,False
+USER_001,TALK_002,"David Pogue dice ""La Simplicidad Vende""",1,Dislike,True,True
+USER_002,TALK_004,Ken Robinson dice que las escuelas matan la creatividad,2,Dislike,True,False
+USER_002,TALK_010,Jehane Noujaim inspira un día mundial de cine,2,Dislike,True,False
+USER_002,TALK_001,Al Gore sobre cómo evitar la crisis climática,5,Like,True,False
+USER_002,TALK_005,Hans Rosling nos muestra las mejores estadísticas que hayamos visto,1,Dislike,True,True
+USER_003,TALK_006,Julia Sweeney habla sobre abandonar a Dios,4,Like,True,True
+USER_003,TALK_005,Hans Rosling nos muestra las mejores estadísticas que hayamos visto,3,Neutral,True,False
+USER_003,TALK_003,Un recorrido por la renovación urbana de la mano de Majora Carter.,5,Like,True,False
+USER_003,TALK_002,"David Pogue dice ""La Simplicidad Vende""",1,Dislike,True,False
+USER_003,TALK_008,Dan Dennett responde a Rick Warren,5,Like,True,True
+USER_003,TALK_001,Al Gore sobre cómo evitar la crisis climática,4,Like,True,True
+USER_003,TALK_009,Rick Warren acerca de una vida con propósito.,5,Like,True,False
+USER_004,TALK_010,Jehane Noujaim inspira un día mundial de cine,3,Neutral,True,True
+USER_004,TALK_004,Ken Robinson dice que las escuelas matan la creatividad,2,Dislike,True,True
+USER_004,TALK_002,"David Pogue dice ""La Simplicidad Vende""",4,Like,True,False
+USER_004,TALK_001,Al Gore sobre cómo evitar la crisis climática,4,Like,True,False
+USER_004,TALK_006,Julia Sweeney habla sobre abandonar a Dios,2,Dislike,True,False
+USER_004,TALK_008,Dan Dennett responde a Rick Warren,3,Neutral,True,True
+USER_005,TALK_002,"David Pogue dice ""La Simplicidad Vende""",3,Neutral,True,True
+USER_005,TALK_003,Un recorrido por la renovación urbana de la mano de Majora Carter.,3,Neutral,True,True
+USER_005,TALK_004,Ken Robinson dice que las escuelas matan la creatividad,2,Dislike,True,True
+USER_005,TALK_010,Jehane Noujaim inspira un día mundial de cine,3,Neutral,True,False
+USER_005,TALK_008,Dan Dennett responde a Rick Warren,3,Neutral,True,True
+USER_005,TALK_006,Julia Sweeney habla sobre abandonar a Dios,2,Dislike,True,False
+USER_006,TALK_008,Dan Dennett responde a Rick Warren,2,Dislike,True,True
+USER_006,TALK_007,Joshua Prince-Ramus habla sobre la biblioteca de Seattle,5,Like,True,False
+USER_006,TALK_010,Jehane Noujaim inspira un día mundial de cine,5,Like,True,False
+USER_006,TALK_002,"David Pogue dice ""La Simplicidad Vende""",5,Like,True,False
+USER_006,TALK_003,Un recorrido por la renovación urbana de la mano de Majora Carter.,3,Neutral,True,True
+USER_007,TALK_009,Rick Warren acerca de una vida con propósito.,1,Dislike,True,True
+USER_007,TALK_008,Dan Dennett responde a Rick Warren,2,Dislike,True,False
+USER_007,TALK_002,"David Pogue dice ""La Simplicidad Vende""",5,Like,True,True
+USER_007,TALK_007,Joshua Prince-Ramus habla sobre la biblioteca de Seattle,4,Like,True,False
+USER_007,TALK_001,Al Gore sobre cómo evitar la crisis climática,5,Like,True,False
+USER_008,TALK_009,Rick Warren acerca de una vida con propósito.,3,Neutral,True,True
+USER_008,TALK_001,Al Gore sobre cómo evitar la crisis climática,3,Neutral,True,False
+USER_008,TALK_002,"David Pogue dice ""La Simplicidad Vende""",2,Dislike,True,False
+USER_008,TALK_006,Julia Sweeney habla sobre abandonar a Dios,1,Dislike,True,False
+USER_008,TALK_005,Hans Rosling nos muestra las mejores estadísticas que hayamos visto,5,Like,True,True
+USER_008,TALK_003,Un recorrido por la renovación urbana de la mano de Majora Carter.,5,Like,True,True

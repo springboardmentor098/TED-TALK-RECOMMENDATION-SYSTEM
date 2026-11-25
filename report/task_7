@@ -1,0 +1,27 @@
+Task 7 – Understanding User Preferences and Preparing Interaction Data
+
+
+
+1. A simulated interaction dataset was created with 8 users and up to 10 TED Talks selected from the cleaned TED Talks dataset.
+2. Each user interacted with a different selection of TED Talks.
+3. Ratings were generated between 1 and 5 to represent user preferences.
+4. Users who gave ratings of 4 or 5 were considered to like the TED Talk.
+5. Users who gave ratings of 1 or 2 were considered to dislike the TED Talk.
+6. The user-item interaction matrix represents the ratings of different users for different TED Talks.
+7. Missing values indicate that users have not rated particular TED Talks.
+8. The interaction analysis helps identify popular TED Talks and users who interact with more content.
+9. Collaborative filtering can use these interaction patterns to identify users with similar interests.
+10. User preferences can improve the recommendation system by providing personalized TED Talk recommendations.
+
+
+9. Prepare screenshots for submission
+After running all notebook cells, take screenshots of these important outputs:
+1	Simulated interaction dataset
+2	User-item interaction matrix
+3	Interaction matrix heatmap
+4	Unique users and TED Talks count
+5	Highest-rated TED Talks
+6	Users who rated the most talks
+7	Most-interacted TED Talks
+8	Likes and dislikes graph
+9	Missing rating analysis

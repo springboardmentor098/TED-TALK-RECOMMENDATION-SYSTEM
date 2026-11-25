@@ -1,0 +1,27 @@
+Task 8 – Building a Collaborative Filtering Recommendation Model
+
+
+The user interaction dataset was loaded successfully using Pandas. It contains user IDs, TED Talk IDs, and ratings. The interaction data used in this implementation is simulated data prepared in Task 7.
+A User-Item Interaction Matrix was created successfully, where rows represent users and columns represent TED Talks. Missing ratings were represented using NaN values.
+Missing values were replaced with zero to prepare the matrix for cosine similarity calculation. Zero represents the absence of an interaction and not an actual user rating.
+Cosine Similarity was used to calculate similarities between users based on their rating patterns. Users with higher similarity scores were considered to have more similar preferences.
+The User Similarity Matrix was generated successfully and visualized using a heatmap.
+A recommendation function named recommend_for_user() was developed. It identifies similar users and recommends TED Talks that the selected user has not rated.
+Predicted ratings were calculated using a weighted average of ratings from similar users. Recommendations were sorted in descending order based on predicted ratings.
+The recommendation function was tested with at least three users. The system generated recommendations based on available user interaction patterns.
+TED Talk IDs were connected with their corresponding titles wherever matching title information was available.
+The implementation demonstrated that collaborative filtering can provide personalized recommendations based on user preferences rather than only textual similarity.
+
+
+
+Limitations
+
+The interaction dataset contains simulated user data.
+A limited number of users and TED Talks may affect recommendation quality.
+New users without interaction history cannot receive personalized recommendations.
+Missing ratings were replaced with zero, which is a simplified approach.
+The system may produce fewer recommendations when similar users have limited interactions.
+
+Conclusion
+
+The User-Based Collaborative Filtering model was successfully implemented using cosine similarity. It identifies users with similar interests and recommends TED Talks based on their ratings. This task provides the foundation for developing a Hybrid Recommendation System by combining Content-Based Filtering and Collaborative Filtering.

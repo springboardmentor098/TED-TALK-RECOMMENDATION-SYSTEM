@@ -1,0 +1,16 @@
+# Task 5 - Task 5 – Text Vectorization using TF-IDF
+
+1. TF-IDF (Term Frequency–Inverse Document Frequency) was used to convert the text data into numerical features.
+2. The cleaned TED Talk text was used for vectorization to represent the content of each talk.
+3. The dataset contains **3,921 usable TED Talks** with 24 columns.
+4. A maximum of 5,000 text features was selected during TF-IDF vectorization.
+5. The TF-IDF matrix was successfully generated with a shape of **(3921, 5000)**.
+6. Cosine similarity was calculated to measure the similarity between different TED Talks.
+7. The similarity matrix was successfully generated with a shape of **(3921, 3921)**.
+8. Talks with similar words and topics receive higher similarity scores, helping the recommendation system identify related TED Talks.
+9. TF-IDF helps the system focus on important words while reducing the importance of frequently occurring common words.
+10. The generated TF-IDF vectors and cosine similarity scores can be used in the next stage to recommend relevant TED Talks to users.
+
+## Final Conclusion
+
+Text vectorization using TF-IDF was successfully completed. The cleaned TED Talk text was converted into numerical vectors, and cosine similarity was calculated for all 3,921 talks. These results provide the foundation for building a content-based TED Talks Recommendation System.
