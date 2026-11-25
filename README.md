@@ -364,3 +364,15 @@ The project explores NLP, machine learning, content-based recommendation, and co
 ---
 
 *Project status: Eight development tasks covering dataset exploration, preprocessing, feature extraction, content-based recommendation, feature evaluation, user interaction analysis, and collaborative filtering.*
+
+## Tasks 9-12: Hybrid Model, Evaluation, App, and Deployment
+
+- 
+otebooks/09_hybrid_recommendation.ipynb compares content, collaborative, and hybrid recommendations.
+- 
+otebooks/10_model_evaluation.ipynb evaluates Precision@10 and Recall@10 over a held-out interaction and tests hybrid weights.
+- pp.py provides a Streamlit interface. Install dependencies with python -m pip install -r requirements.txt, then launch with python -m streamlit run app.py.
+- Run local checks with python -m unittest discover -s tests -v. See DEPLOYMENT.md for hosting guidance.
+
+The sample interaction data is small, and the held-out evaluation has no event timestamps. Treat its metrics as exploratory. Only publish TED datasets when their source license permits redistribution.
+
