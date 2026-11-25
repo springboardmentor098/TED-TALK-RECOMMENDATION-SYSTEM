@@ -317,3 +317,73 @@ Therefore, Experiment 4 was considered the most suitable feature combination amo
 **Conclusion:** Task 7 successfully demonstrates how user interaction data can be collected, analyzed, and transformed into a user-item matrix. This data can be used as the foundation for implementing Collaborative Filtering in the recommendation system.
 
 **Dataset limitation:** All user profiles, interactions, and ratings are simulated. They are intended for learning and experimentation rather than representing real-world TED user behavior.
+
+## Task 8: Collaborative Filtering Recommendation Model
+
+**Notebook:** `notebooks/08_collaborative_filtering.ipynb`
+
+Implemented a user-based Collaborative Filtering Recommendation Model to generate personalized TED Talk recommendations based on user preferences and rating patterns.
+
+### Activities Performed
+
+1. **Load Interaction Dataset**
+   - Loaded the simulated user interaction dataset generated in Task 7 from `data/interaction/user_interactions.csv`.
+   - Used the existing interaction records containing user IDs, TED Talk IDs, ratings, and other interaction details.
+
+2. **Create User-Item Matrix**
+   - Created a user-item matrix using the Pandas `pivot()` function.
+   - Represented users as rows and TED Talk IDs as columns, with ratings as matrix values.
+   - Generated a matrix of **20 users × 50 TED Talks**.
+
+3. **Calculate User Similarity**
+   - Filled missing ratings with zero for the initial similarity calculation.
+   - Applied Cosine Similarity using Scikit-learn to identify users with similar rating patterns.
+   - Generated a user similarity matrix of shape **20 × 20**.
+
+4. **Identify Similar Users**
+   - Identified the five most similar users for a selected target user based on cosine similarity scores.
+   - For example, U003 was identified as the most similar user to U001, with a similarity score of approximately **0.491711**.
+
+5. **Develop a Recommendation Function**
+   - Developed a reusable Python function named `recommend_for_user(user_id, top_n=5)`.
+   - Identified similar users and TED Talks that the target user had not rated.
+   - Calculated predicted ratings using a similarity-weighted average of ratings from similar users.
+   - Sorted recommendations in descending order of predicted ratings.
+
+6. **Test the Recommendation Model**
+   - Tested the recommendation function using three different users: U001, U006, and U011.
+   - Verified that valid users received recommendations successfully.
+   - Confirmed that previously rated TED Talks were excluded.
+   - Verified that recommendations were sorted by predicted ratings.
+   - Tested invalid User ID handling using `ValueError`.
+   - All recommendation validation checks passed.
+
+7. **Display TED Talk Titles**
+   - Connected recommended TED Talk IDs with the original cleaned dataset, `data/processed/ted_talks_cleaned.csv`.
+   - Verified that all interaction TED Talk IDs matched the original dataset.
+   - Displayed the final recommendations with TED Talk ID, TED Talk Title, and Predicted Rating.
+
+8. **Analyze and Document Results**
+   - Documented how cosine similarity identifies users with similar preferences.
+   - Explained how similarity-weighted ratings generate recommendations.
+   - Observed personalized recommendation results across different users.
+   - Analyzed the influence of user preferences on recommendation results.
+   - Documented implementation limitations, including simulated interaction data, limited users and TED Talks, missing ratings, and the cold-start problem.
+
+### Sample Recommendation Results
+
+| User ID | Top Recommended TED Talk | Predicted Rating |
+|---|---|---:|
+| U001 | Will our kids be a different species? | 5.00 |
+| U006 | Don't build your home, grow it! | 5.00 |
+| U011 | Dog-friendly dog training | 5.00 |
+
+### Key Observations
+
+- Cosine Similarity successfully identified users with similar rating patterns.
+- Similarity-weighted average ratings were used to predict ratings for previously unrated TED Talks.
+- Different users received different recommendation lists based on their similarity relationships and neighbours' ratings.
+- The model successfully generated the top five recommendations for each tested user.
+- The implementation demonstrates the working of a basic user-based collaborative filtering system.
+
+**Limitation:** The interaction dataset contains 280 simulated interactions from 20 users across 50 selected TED Talks. Therefore, the recommendation results demonstrate the collaborative filtering workflow for educational purposes and do not establish real-world recommendation accuracy.
