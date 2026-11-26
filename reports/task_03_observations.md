@@ -1,4 +1,4 @@
-# Task 3 — Data Cleaning and Text Preprocessing
+# Task 3 - Data Cleaning and Text Preprocessing
 
 **Notebook:** `notebooks/03_data_cleaning_preprocessing.ipynb`  
 **Task:** 3 of 8  
@@ -27,7 +27,7 @@ The raw input file is preserved unchanged.
 | Column | Decision | Reason |
 |--------|----------|--------|
 | `speaker_occupation` | Fill with `"unknown"` | Optional context; dropping would remove 13% of talks |
-| `title`, `description`, `tags`, `transcript`, `url` | Coerce to string, strip; empty/`"nan"`/`"none"` → `""` | Consistent representation; no real empty values were found |
+| `title`, `description`, `tags`, `transcript`, `url` | Coerce to string, strip; empty/`"nan"`/`"none"` -> `""` | Consistent representation; no real empty values were found |
 | Short transcripts (< 50 words) | Keep and flag with `is_short_transcript` | Performance talks still have title, tags, and description |
 
 After imputation, the cleaned dataset has **0 missing values**.
@@ -115,7 +115,7 @@ No talks were removed: every row still has usable text.
 
 ## 9. Limitations
 
-- Punctuation removal splits contractions (e.g. `it's` → `it s`), which adds minor noise.
+- Punctuation removal splits contractions (e.g. `it's` -> `it s`), which adds minor noise.
 - Digits are retained, so numeric tokens such as `000` can enter the vocabulary.
 - No stemming, lemmatisation, spell correction, or named-entity removal is applied.
 - Tags remain free-form; synonyms are not merged.

@@ -1,4 +1,4 @@
-# Task 1 — Environment Setup and Dataset Collection
+# Task 1 - Environment Setup and Dataset Collection
 
 **Notebook:** `notebooks/01_data_exploration.ipynb`  
 **Task:** 1 of 8  
@@ -31,7 +31,7 @@ The environment was verified with `python --version`, `python -m pip --version`,
 | Item | Value |
 |------|-------|
 | Dataset | **TED Ultimate Dataset** |
-| Source | [Kaggle — miguelcorraljr/ted-ultimate-dataset](https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset/data) |
+| Source | [Kaggle - miguelcorraljr/ted-ultimate-dataset](https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset/data) |
 | File used | `ted_talks_en.csv` |
 | Raw shape | 4,005 rows × 19 columns |
 | Language | English |
@@ -67,9 +67,9 @@ The raw 19 columns were reduced to **12 core columns**:
 
 Transformations applied:
 
-1. Renamed `speaker_1` → `speaker`.
-2. Renamed `topics` → `tags`.
-3. Renamed `occupations` → `speaker_occupation`.
+1. Renamed `speaker_1` -> `speaker`.
+2. Renamed `topics` -> `tags`.
+3. Renamed `occupations` -> `speaker_occupation`.
 4. Extracted the first speaker's occupation from the nested dictionary.
 5. Converted occupation and tag lists into comma-separated strings.
 
@@ -92,7 +92,7 @@ No rows were dropped and no values were imputed at this stage.
 - **English-only** dataset; recommendations cannot serve non-English talks.
 - **Tags are free-form** and may contain near-duplicates or inconsistent labels.
 - **View counts are heavily skewed**, so popularity cannot be used directly without transformation.
-- **No user interaction data** exists — collaborative filtering is not possible at this stage.
+- **No user interaction data** exists - collaborative filtering is not possible at this stage.
 - **Transcript lengths vary widely**, including a small number of music/performance talks with almost no spoken text.
 - The dataset has **no explicit quality or satisfaction signal**; textual similarity is only a proxy for relevance.
 

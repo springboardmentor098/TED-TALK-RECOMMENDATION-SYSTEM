@@ -1,4 +1,4 @@
-# Task 2 — Exploratory Data Analysis and Data Quality Assessment
+# Task 2 - Exploratory Data Analysis and Data Quality Assessment
 
 **Notebook:** `notebooks/02_eda_data_quality.ipynb`  
 **Task:** 2 of 8  
@@ -89,8 +89,8 @@ Tags are stored as comma-separated strings after Task 1. They are free-form, so 
 | Metric | Duration (seconds) | Views |
 |--------|-------------------:|------:|
 | Mean | ~724 s (~12 min) | ~2.15 M |
-| Median | — | ~1.38 M |
-| Minimum | 60 s | — |
+| Median | - | ~1.38 M |
+| Minimum | 60 s | - |
 | Maximum | 3,922 s (~65 min) | ~65 M |
 | Distribution | Roughly typical talk length | Heavily right-skewed |
 

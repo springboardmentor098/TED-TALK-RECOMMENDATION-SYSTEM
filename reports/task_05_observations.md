@@ -1,4 +1,4 @@
-# Task 5 — Content-Based Recommendation Engine
+# Task 5 - Content-Based Recommendation Engine
 
 **Notebook:** `notebooks/05_content_based_recommendation.ipynb`  
 **Task:** 5 of 8  
@@ -19,7 +19,7 @@ Build a reusable function, `recommend_talks(title, top_n=5)`, that returns the m
 | `data/processed/ted_talks_cleaned.csv` | 4,005 × 16 | ~123 MB |
 | `data/processed/tfidf_matrix.npz` | 4,005 × 366,288 | ~22 MB |
 | `data/processed/cosine_sim.npy` | 4,005 × 4,005 | ~128 MB |
-| `data/processed/tfidf_vectorizer.joblib` | — | ~10 MB |
+| `data/processed/tfidf_vectorizer.joblib` | - | ~10 MB |
 
 The function loads the dataset and artifacts once. If an artifact is missing, the notebook rebuilds it once and saves it back to disk.
 
@@ -35,12 +35,12 @@ recommend_talks(title, top_n=5)
 
 ### Title matching strategy
 
-1. **Exact match** — case-insensitive, whitespace-stripped.
-2. **Partial / substring match** — if exactly one talk contains the input, use it.
-3. **Ambiguous partial match** — if several talks contain the input, `difflib` picks the closest title and prints which one was chosen.
-4. **Invalid title** — suggest the closest valid title with `difflib` and return `None`.
-5. **Validation** — `top_n` must be an integer between 1 and 20.
-6. **Self-exclusion** — the seed talk is removed from its own recommendations.
+1. **Exact match** - case-insensitive, whitespace-stripped.
+2. **Partial / substring match** - if exactly one talk contains the input, use it.
+3. **Ambiguous partial match** - if several talks contain the input, `difflib` picks the closest title and prints which one was chosen.
+4. **Invalid title** - suggest the closest valid title with `difflib` and return `None`.
+5. **Validation** - `top_n` must be an integer between 1 and 20.
+6. **Self-exclusion** - the seed talk is removed from its own recommendations.
 
 ### Output
 
@@ -74,13 +74,13 @@ A pandas DataFrame with:
 |-----:|--------:|------------------|------:|
 | 1 | 2406 | I love being a police officer, but we need reform | 0.2173 |
 | 2 | 2239 | The hidden reason for poverty the world needs to address now | 0.1719 |
-| 3 | 633 | The real story of McMafia — how global crime networks work | 0.1589 |
+| 3 | 633 | The real story of McMafia - how global crime networks work | 0.1589 |
 | 4 | 45612 | How policewomen make communities safer | 0.1526 |
 | 5 | 1914 | Why smart statistics are the key to fighting crime | 0.1458 |
 
 **Assessment:** The recommendations stay within policing, crime, and justice. This is a meaningful cluster even though the scores are low in absolute terms.
 
-### Seed: “Averting the climate crisis” — top 10
+### Seed: “Averting the climate crisis” - top 10
 
 | Rank | Recommended talk | Score |
 |-----:|------------------|------:|
@@ -89,10 +89,10 @@ A pandas DataFrame with:
 | 3 | A climate solution where all sides can win | 0.1433 |
 | 4 | The case for optimism on climate change | 0.1423 |
 | 5 | Can we stop climate change by removing CO2 from the air? | 0.1382 |
-| 6 | Climate change is happening — here's how we adapt | 0.1339 |
+| 6 | Climate change is happening - here's how we adapt | 0.1339 |
 | 7 | How we could change the planet's climate future | 0.1338 |
 | 8 | 100 solutions to reverse global warming | 0.1316 |
-| 9 | This country isn't just carbon neutral — it's carbon negative | 0.1304 |
+| 9 | This country isn't just carbon neutral - it's carbon negative | 0.1304 |
 | 10 | What comes after an inconvenient truth | 0.1303 |
 
 All 10 recommendations are climate-related, showing that the ranking remains coherent beyond the top 5.

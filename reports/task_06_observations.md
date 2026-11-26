@@ -1,4 +1,4 @@
-# Task 6 — Feature Selection and Recommendation Quality Evaluation
+# Task 6 - Feature Selection and Recommendation Quality Evaluation
 
 **Notebook:** `notebooks/06_feature_selection_evaluation.ipynb`  
 **Task:** 6 of 8  
@@ -44,7 +44,7 @@ The notebook builds its own TF-IDF matrices per experiment, so it does not depen
 
 ## 4. Metric
 
-**Average tag Jaccard** — the overlap between the seed talk's tags and the tags of its top-5 recommendations, averaged over the seeds. It is an objective topical-relevance proxy: higher means the recommendations share the seed's subject matter.
+**Average tag Jaccard** - the overlap between the seed talk's tags and the tags of its top-5 recommendations, averaged over the seeds. It is an objective topical-relevance proxy: higher means the recommendations share the seed's subject matter.
 
 Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2 input. It is therefore read alongside qualitative review, not in isolation.
 
@@ -76,7 +76,7 @@ Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2
 | Artifact | Shape | Non-zeros |
 |----------|------:|----------:|
 | Exp3 TF-IDF matrix | 4,005 × 23,643 | 200,047 |
-| Exp4 TF-IDF matrix | 4,005 × 363,947 | — |
+| Exp4 TF-IDF matrix | 4,005 × 363,947 | - |
 
 ---
 
@@ -84,7 +84,7 @@ Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2
 
 **Relevance:** Exp2 and Exp3 returned consistently topical recommendations. Exp1 surfaced near-duplicates from the same speaker/series. Exp4 drifted into unrelated talks (for the creativity seed it returned “Rebuilding a neighborhood…” and “It's OK to feel overwhelmed…”).
 
-**Do recommendations discuss similar topics?** Yes for Exp2 and Exp3. Exp3 showed more conceptual variety — for the policing seed it returned rule-of-law and justice-system talks, while Exp2 stayed inside the literal tag cluster.
+**Do recommendations discuss similar topics?** Yes for Exp2 and Exp3. Exp3 showed more conceptual variety - for the policing seed it returned rule-of-law and justice-system talks, while Exp2 stayed inside the literal tag cluster.
 
 **Where do irrelevant results come from?** Most often from Exp4. Long transcripts inflate TF-IDF weights on repeated names and filler words; for Al Gore's climate talk, `tipper` outranked `climate`.
 
@@ -96,7 +96,7 @@ Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2
 
 ## 7. Final Selection
 
-**Selected: Exp3 — Title + Description + Tags**
+**Selected: Exp3 - Title + Description + Tags**
 
 | Reason | Explanation |
 |--------|-------------|
@@ -108,9 +108,9 @@ Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2
 
 **Not selected:**
 
-- **Exp1 (Title only)** — too narrow, near-duplicate results.
-- **Exp2 (Title + Tags)** — strong metric, but underuses descriptive text.
-- **Exp4 (full text)** — highest cosine scores, lowest real-world relevance.
+- **Exp1 (Title only)** - too narrow, near-duplicate results.
+- **Exp2 (Title + Tags)** - strong metric, but underuses descriptive text.
+- **Exp4 (full text)** - highest cosine scores, lowest real-world relevance.
 
 ---
 
@@ -120,7 +120,7 @@ Tag Jaccard is a **partial** signal, because tags are literally part of the Exp2
 |------|------:|-----:|-------------|
 | `data/processed/tfidf_matrix_exp3.npz` | 4,005 × 23,643 | ~1.6 MB | Final sparse TF-IDF matrix |
 | `data/processed/cosine_sim_exp3.npy` | 4,005 × 4,005 | ~128 MB | Final dense similarity, diagonal = 0 |
-| `data/processed/tfidf_vectorizer_exp3.joblib` | — | ~0.6 MB | Fitted Exp3 vectorizer |
+| `data/processed/tfidf_vectorizer_exp3.joblib` | - | ~0.6 MB | Fitted Exp3 vectorizer |
 
 These are the **final** recommender artifacts. The non-suffixed Task 4 baseline artifacts are retained only for comparison.
 

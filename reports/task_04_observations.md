@@ -1,4 +1,4 @@
-# Task 4 — TF-IDF Vectorization and Similarity Analysis
+# Task 4 - TF-IDF Vectorization and Similarity Analysis
 
 **Notebook:** `notebooks/04_tfidf_vectorization.ipynb`  
 **Task:** 4 of 8  
@@ -46,8 +46,8 @@ TfidfVectorizer(
 
 Cosine similarity compares the angle between two TF-IDF vectors:
 
-- `1.0` — identical term distribution
-- `0.0` — no shared weighted terms
+- `1.0` - identical term distribution
+- `0.0` - no shared weighted terms
 
 The full 4,005 × 4,005 similarity matrix is computed, and the diagonal is set to `0.0` so a talk cannot recommend itself.
 
@@ -117,7 +117,7 @@ Absolute scores are low for most pairs because transcripts are long and the voca
 | 1 | 1738 | How to escape education's death valley | 0.1710 |
 | 2 | 865 | Bring on the learning revolution | 0.1646 |
 | 3 | 209 | Rebuilding a neighborhood with beauty, dignity, hope | 0.1397 |
-| 4 | 61930 | It's OK to feel overwhelmed — here's what to do next | 0.1362 |
+| 4 | 61930 | It's OK to feel overwhelmed - here's what to do next | 0.1362 |
 | 5 | 2182 | How to run a company with almost no rules | 0.1348 |
 
 **Assessment:** Ranks 1–2 are strong education/creativity matches. Ranks 3–5 drift into generic “rethink/people” language.
@@ -154,7 +154,7 @@ Absolute scores are low for most pairs because transcripts are long and the voca
 |------|------:|-----:|-------------|
 | `data/processed/tfidf_matrix.npz` | 4,005 × 366,288 | ~22 MB | Sparse TF-IDF matrix |
 | `data/processed/cosine_sim.npy` | 4,005 × 4,005 | ~128 MB | Dense cosine similarity, diagonal = 0 |
-| `data/processed/tfidf_vectorizer.joblib` | — | ~10 MB | Fitted vectorizer |
+| `data/processed/tfidf_vectorizer.joblib` | - | ~10 MB | Fitted vectorizer |
 
 These are the **Task 4 baseline** artifacts. They are superseded by the Exp3 artifacts selected in Task 6.
 
