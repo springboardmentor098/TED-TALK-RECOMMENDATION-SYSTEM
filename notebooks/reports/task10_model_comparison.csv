@@ -1,0 +1,4 @@
+Model,Precision@5,Recall@5,Advantages,Limitations
+Content-Based,0.0,0.0,Recommends similar content,Limited content diversity
+Collaborative Filtering,0.14285714285714285,0.7142857142857143,Uses user preferences,Cold start and sparse data
+Hybrid,0.05714285714285715,0.2857142857142857,Combines both approaches,More complex implementation

@@ -1,0 +1,4 @@
+Model,Precision@5,Recall@5
+Content-Based,0.0,0.0
+Collaborative Filtering,0.14285714285714285,0.7142857142857143
+Hybrid,0.05714285714285715,0.2857142857142857
