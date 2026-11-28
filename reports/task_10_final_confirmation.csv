@@ -1,0 +1,6 @@
+model,Precision@5,Recall@5,HitRate@5,Precision spread (std)
+Hybrid (cf_weight=0.4),0.272,0.679,0.916,0.019
+Content-based,0.255,0.639,0.853,0.027
+Collaborative,0.204,0.511,0.811,0.026
+Random,0.111,0.277,0.488,0.024
+Popularity,0.076,0.191,0.372,0.023
