@@ -247,10 +247,6 @@ This task builds on the TF-IDF vectors and cosine similarity approach developed 
 - Include screenshots demonstrating successful test cases.
 - Ensure that the function is reusable, clearly organized, and handles invalid TED Talk titles appropriately.
 
-## Current Project Status
-
-Tasks 1–5 have been completed according to the workflow documented in this README. Task 4 established the TF-IDF and cosine-similarity baseline, generated sample recommendations, and documented its limitations. Task 5 builds on that work by organizing the recommendation process into a reusable title-based function. The current project is a content-based recommendation system: it compares talk text and ranks similar talks, but does not yet model individual user preferences, viewing history, or feedback. Further improvements, evaluation methods, or application development should be documented as they are implemented and tested.
-
 ## Notes
 
 - Keep the raw dataset unchanged in `data/raw/`.
